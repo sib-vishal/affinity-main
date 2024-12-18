@@ -629,8 +629,6 @@ section {
   font-weight: 600;
 }
 
-/
-
 /* contact  */
 .contactBg {
   background: url(../images/home/banner2.jpg) no-repeat;
@@ -1059,10 +1057,12 @@ section {
   /* mix-blend-mode: color-burn; */
 }
 
-/*contact page*/
-.contact-banner {
+/* page-banner */
+
+.contact-banner,
+.page-banner {
   padding-top: 120px;
-  background-image: url(https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  /* background-image: url(https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
   /*background-color: #1a5d94a9;*/
   background-blend-mode: multiply;
   background-position: center;
@@ -1072,8 +1072,21 @@ section {
   align-items: center;
   min-height: 70vh;
 
-  background-color: #132d33cf;
+  background-color: #132d3388;
+  /* background-color: #132d33cf; */
 }
+.page-banner .banner-inner {
+  color: #fff;
+  width: 100%;
+}
+.page-banner.about{
+   background-image: url(https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
+.contact-banner {
+  background-image: url(https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+}
+
 .contact-banner .banner-inner {
   color: #fff;
   width: 100%;
@@ -1408,8 +1421,8 @@ section {
 .img_com {
   .wrapper {
     position: relative;
-    height:400px;
-    width:100%;
+    height: 400px;
+    width: 100%;
     overflow: hidden;
     background: #fff;
     border: 0.7rem solid #fff;
@@ -1426,18 +1439,18 @@ section {
     height: 100%;
     width: 100%;
     /*filter: grayscale();*/
-background: url('../images/Autumn_Living_After.jpg') no-repeat ;
-background-size: cover;
-  /*background-attachment: fixed;*/
+    background: url("../images/Autumn_Living_After.jpg") no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
   }
 
   .wrapper .image .image-2 {
     position: absolute;
     height: 100%;
     width: 50%;
-      /*background-attachment: fixed;*/
-   background: url('../images/Autumn_Living_Before.jpg') no-repeat;
-   background-size: cover;
+    /*background-attachment: fixed;*/
+    background: url("../images/Autumn_Living_Before.jpg") no-repeat;
+    background-size: cover;
   }
 
   .wrapper .slider {
@@ -1455,7 +1468,7 @@ background-size: cover;
   }
 
   .wrapper .slider input::-webkit-slider-thumb {
-    height:400px;
+    height: 400px;
     width: 0.3rem;
     background: none;
     -webkit-appearance: none;
@@ -1520,14 +1533,139 @@ background-size: cover;
   }
 }
 
-.project-galler-img{
+.project-galler-img {
   width: 100%;
   height: 250px;
- 
 }
-.project-galler-img img{
+.project-galler-img img {
   width: 100%;
   height: 250px;
   object-fit: cover;
- 
+}
+.additional-item {
+  padding-left: 40px;
+}
+.additional-item li {
+  margin-top: 20px;
+  position: relative;
+}
+.additional-item li::after {
+  position: absolute;
+  left: -35px;
+  content: "";
+  top: 7px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: var(--secondary-color);
+}
+.additional-item li::before {
+  position: absolute;
+  left: -42px;
+  content: "";
+  top: 0px;
+  width: 24px;
+  height: 25px;
+  border-radius: 100%;
+  /* background-color: var(--secondary-color); */
+  border: 2px dotted var(--primary-color);
+}
+
+.img_box_add {
+  width: 100%;
+  height: 100%;
+}
+.img_box_add img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.services_grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.services_grid .img_box {
+  width: 100%;
+  height: 100%;
+}
+.services_grid .img_box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*  */
+
+.item_services_home ul {
+  padding-left: 40px;
+}
+.item_services_home ul li {
+  margin-top: 20px;
+  position: relative;
+}
+.item_services_home ul li a {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.item_services_home ul li a:hover {
+  color: var(--secondary-color);
+  font-weight: 600;
+}
+.item_services_home ul li::after {
+  position: absolute;
+  left: -35px;
+  content: "";
+  top: 7px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: var(--secondary-color);
+}
+.item_services_home ul li::before {
+  position: absolute;
+  left: -42px;
+  content: "";
+  top: 0px;
+  width: 24px;
+  height: 25px;
+  border-radius: 100%;
+
+  border: 2px dotted var(--primary-color);
+}
+.img_box_s_detail {
+  width: 100%;
+  height: 100%;
+}
+.img_box_s_detail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#add_ser_carousel img{
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* kitchen card */
+.kitchen-card {
+  background-image: url(../images/kitchen.jpg);
+  background-repeat: no-repeat;
+  height: 386px;
+  background-size: cover;
+}
+
+.kitchen-card2 {
+  background-image: url(../images/bathroom.jpg);
+  background-repeat: no-repeat;
+  height: 180px;
+  background-size: cover;
+  background-position: center;
+}
+
+.kitchen-card3 {
+  background-image: url(../images/services-carousel2.jpg);
+  background-repeat: no-repeat;
+  height: 180px;
+  background-size: cover;
 }

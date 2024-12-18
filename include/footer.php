@@ -77,7 +77,7 @@
 	<div class="copyright_main ">
 		<div class="containerFull  ">
 			<div class="Copyright text-white">
-				© 2024 - All rights reserved <strong><span>Affinitybuilders</span></strong>.
+				© <?php echo date('Y'); ?>  - All rights reserved <strong><span>Affinitybuilders</span></strong>.
 			</div>
 			<div class="credits">
 

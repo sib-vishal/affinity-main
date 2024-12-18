@@ -193,8 +193,8 @@ $projects = [
                     <p class="mt-4 text-white" data-aos="fade-up" data-aos-duration="1000">
                         Servicing the Greater Philadelphia region and Surrounding Suburbs
                     </p>
-                    <a class="btn fontWeight600 header-btn mt-4" href="services.php" data-aos="fade-up" data-aos-duration="1000"
-                        data-aos-delay="100">
+                    <a class="btn fontWeight600 header-btn mt-4" href="services.php" data-aos="fade-up"
+                        data-aos-duration="1000" data-aos-delay="100">
                         Explore More <i class="fa-solid fa-arrow-right ms-1 " style="rotate:-45deg"></i></a>
                 </div>
             </div>
@@ -230,33 +230,19 @@ $projects = [
                         <div class="row g-4">
                             <div class="col-lg-6 col-md-6 col-12">
                                 <a href="#!">
-                                    <div class="rounded-3 card-lift" style="
-    background-image: url(https://images.pexels.com/photos/3926542/pexels-photo-3926542.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-repeat: no-repeat;
-    height: 386px;
-    background-size: cover;
-"></div>
+                                    <div class="rounded-3 card-lift kitchen-card"></div>
                                 </a>
                             </div>
                             <div class="col-lg-6 col-md-6 col-12">
                                 <a href="#!">
-                                    <div class="mb-4 rounded-3 card-lift" style="
-    background-image: url(https://images.pexels.com/photos/6301168/pexels-photo-6301168.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-repeat: no-repeat;
-    height: 180px;
-    background-size: cover;
-"></div>
+                                    <div class="mb-4 rounded-3 card-lift kitchen-card2"></div>
                                 </a>
                                 <a href="#!">
-                                    <div class="mb-2 rounded-3 card-lift" style="
-    background-image: url(https://images.pexels.com/photos/6957087/pexels-photo-6957087.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-    background-repeat: no-repeat;
-    height: 180px;
-    background-size: cover;
-"></div>
+                                    <div class="mb-2 rounded-3 card-lift kitchen-card3"></div>
                                 </a>
                             </div>
                         </div>
+
                     </div>
                 </div>
             </div>
@@ -278,7 +264,8 @@ $projects = [
                             </div>
                             <div>
                                 <h4 class="text-white">Expert Team</h4>
-                                <p class="mb-0 text-white mt-3"> Dedicated to providing the best in customer service from beginning to end.</p>
+                                <p class="mb-0 text-white mt-3"> Dedicated to providing the best in customer service
+                                    from beginning to end.</p>
                             </div>
                         </div>
                     </div>
@@ -293,7 +280,8 @@ $projects = [
                             </div>
                             <div>
                                 <h4 class="text-white">PA licensed and insured</h4>
-                                <p class="mb-0 text-white mt-3"> You can trust us to deliver quality work with full protection.</p>
+                                <p class="mb-0 text-white mt-3"> You can trust us to deliver quality work with full
+                                    protection.</p>
                             </div>
                         </div>
                     </div>
@@ -308,83 +296,92 @@ $projects = [
                             </div>
                             <div>
                                 <h4 class="text-white">15 Year Exp.</h4>
-                                <p class="mb-0 text-white mt-3">We bring over 15 years of proven experience to every project </p>
+                                <p class="mb-0 text-white mt-3">We bring over 15 years of proven experience to every
+                                    project </p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!--Expert team end-->
 
-        <!-- <section class="bg-gray-light">
-            <div class="containerFull">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="d-flex">
-                            <div class="m-auto">
-                                <h4 class="heading fontHeading fontWeight900">
-                                    Lets Discuss
-                                    Your Project!
-
-                                </h4>
-                                <p>
-                                    Contact us today and take the next step building the home of your dreams!
-                                </p>
-                                <div class="mt-5">
-                                    <img class="w-100" src="images/telephone.jpg" alt="">
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="bannerForm_main">
-                            <form action="" class="bg-white bannerForm">
-                                <div class=" p-4 bg_primary text-white ">
-                                    <h4 class="fontHeading fontWeight700">
-                                        Speak To A Our Expert
-                                    </h4>
-                                    <p class="mt-1 text-white-50">
-                                        Tell us about your project!
-                                    </p>
-                                </div>
-                                <div class="p-4">
-                                    <div class="form-floating mb-3">
-                                        <input type="tel" class="form-control" id="floatingName" placeholder="Name">
-                                        <label for="floatingName">Name</label>
-                                    </div>
-                                    <div class="form-floating mb-3">
-                                        <input type="email" class="form-control" id="floatingInput"
-                                            placeholder="name@example.com">
-                                        <label for="floatingInput">Email address</label>
-                                    </div>
-                                    <div class="form-floating mb-3">
-                                        <input type="tel" class="form-control" id="floatingPassword"
-                                            placeholder="Phone No.">
-                                        <label for="floatingPassword">Phone No.</label>
-                                    </div>
-                                    <div class="form-floating">
-                                        <textarea class="form-control" placeholder="Leave a message here"
-                                            style="height: 100px" id="floatingTextarea"></textarea>
-                                        <label for="floatingTextarea">Message</label>
-                                    </div>
-                                    <button class="btn header-btn w-100 py-3 mt-3  " type="submit">
-                                        Speak To A Design Specialist
-                                    </button>
-                                </div>
-                               
-                            </form>
-                        </div>
+        <!-- our services -->
+        <section class="py-0">
+            <div class="services_grid">
+                <div class="item">
+                    <div class="img_box">
+                        <img src="images/home_services.jpg " alt="" />
 
                     </div>
 
                 </div>
+                <div class="item p-5 ">
+                    <h4 class="heading fontHeading fontWeight800 text_secondary">
+                        Our Services
+                    </h4>
+                    <p class="text-justify mt-3">
+                        Our team of skilled and experienced professionals provides exceptional services to help you
+                        achieve your dreams. Our team has been working together for over 15 years, providing affordable
+                        and reliable solutions to a wide range of projects, including interior design, architectural
+                        restoration, and commercial spaces.
+                    </p>
+
+                    <div class="item_services_home">
+                        <ul>
+                            <li>
+                                <a href="services-details.php">
+                                    KITCHENS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="services-details.php">
+                                    BATHROOM
+                                </a>
+                            </li>
+                            <li>
+                                <a href="services-details.php">
+                                    EXTERIOR AND INTERIOR REMODELS
+                                </a>
+                            </li>
+                        </ul>
+
+                    </div>
+
+
+
+
+                    <h5 class=" fontWeight700  mt-5 text_secondary fontHeading sub_heading">
+                        Addtional Services
+
+                    </h5>
+                    <p class="mt-4">
+                        We also offer a variety of additional services, including:
+                    </p>
+                    <div class="item_services_home">
+                        <ul>
+                            <li>
+                                <a href="services-details.php">
+                                    BASEMENT REMODEL
+                                </a>
+                            </li>
+                            <li>
+                                <a href="services-details.php">
+                                    REMIDIATION
+                                </a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+
+
+                </div>
 
             </div>
-        </section> -->
-
-        <!-- our services -->
+        </section>
+        \ <!-- our services -->
         <!-- <section>
             <div class="containerFull">
                 <small class="text-uppercase title ls-md fw-semibold text_primary">
@@ -718,7 +715,10 @@ $projects = [
                                     01. Initial Proposal
                                 </h4>
                                 <p class="mt-2">
-                                    We gather all project details, preferences and requirements and establish a shared understanding of the project goals and expectations. Review services to be provided throughout the duration of the project and do our best to address any apprehensions before proceeding.  
+                                    We gather all project details, preferences and requirements and establish a shared
+                                    understanding of the project goals and expectations. Review services to be provided
+                                    throughout the duration of the project and do our best to address any apprehensions
+                                    before proceeding.
 
                                 </p>
 
@@ -734,10 +734,13 @@ $projects = [
                             </div>
                             <div class="process_content px-3 ">
                                 <h4 class="text_secondary fontWeight700">
-                                    02. Planning & Approval 
+                                    02. Planning & Approval
                                 </h4>
                                 <p class="mt-2">
-                                    We collectively review the detailed scope of work (Creating the Construction Contract). We will continually review the information learned and shared in this phase to ensure we’re staying on track to meet expectations and achieve project goals.
+                                    We collectively review the detailed scope of work (Creating the Construction
+                                    Contract). We will continually review the information learned and shared in this
+                                    phase to ensure we’re staying on track to meet expectations and achieve project
+                                    goals.
 
                                 </p>
 
@@ -756,7 +759,9 @@ $projects = [
                                     03. Payment
                                 </h4>
                                 <p class="mt-2">
-                                  A thorough review of corresponding project pricing.  Upon your authorization to proceed, a deposit payment is due.  Pre-scheduled payments to follow milestones throughout the Construction phase through to completion and final payment. 
+                                    A thorough review of corresponding project pricing. Upon your authorization to
+                                    proceed, a deposit payment is due. Pre-scheduled payments to follow milestones
+                                    throughout the Construction phase through to completion and final payment.
 
                                 </p>
 
@@ -775,7 +780,9 @@ $projects = [
                                     04. Implementation & Delivery
                                 </h4>
                                 <p class="mt-2">
-                                    Finally the fun part, Work begins on your project!  During the process we will communicate to answer questions, resolve problems in a timely manner, and provide scheduling updates through to completion.
+                                    Finally the fun part, Work begins on your project! During the process we will
+                                    communicate to answer questions, resolve problems in a timely manner, and provide
+                                    scheduling updates through to completion.
 
                                 </p>
 
@@ -790,7 +797,7 @@ $projects = [
 
             </div>
         </section>
-        
+
         <!-- <section class="bg_secondary">
             <div class="containerFull">
                 <div class="row align-items-center justify-content-between">
@@ -1059,7 +1066,7 @@ $projects = [
                                     Talk to Our Experts
                                 </h4>
                                 <a href="tel:267-645-9005" class="d-inline-block text-white h1 mt-2 ">
-                                267-645-9005
+                                    267-645-9005
                                 </a>
 
                             </div>

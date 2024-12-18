@@ -48,7 +48,7 @@ $services = [
 <body>
     <?php include 'include/header.php'; ?>
     <div class="wrapper">
-        <div class="contact-banner">
+        <div class="page-banner about">
             <div class="containerFull w-100">
                 <div class="banner-inner  ">
                     <h1 class="fontHeading ">
@@ -62,36 +62,6 @@ $services = [
                 </div>
             </div>
         </div>
-        <!-- <section class="" style="background:#f6f6f6">
-            <div class="containerFull ">
-                <div class="row mt-4">
-                    <div class="col-lg-6">
-                        <h2 class="heading fontHeading fontWeight700">
-                            Affinity Builders
-                        </h2>
-                        <p class="mt-4">
-                            Affinity Builders is dedicated to providing extra care to each project from pre-construction
-                            to project closeout. Owned and Operated in Philadelphia, we strive to revitalize not only
-                            the Philadelphia area, but all of its surrounding counties.
-                        </p>
-
-                        <div>
-                            15 years + of experience
-
-
-                        </div>
-
-                    </div>
-                    <div class="col-lg-6">
-
-
-
-                    </div>
-
-                </div>
-            </div>
-        </section> -->
-
         <section class="bg_gray-light">
             <div class="containerFull">
 
@@ -523,7 +493,7 @@ $services = [
                                             Contact with us
                                         </p>
                                         <h4 class="fontWeight700">
-                                        267-645-9005
+                                            267-645-9005
                                         </h4>
                                     </span> &nbsp;</a>
                             </div>
@@ -535,7 +505,7 @@ $services = [
                                 <source src="images/banner/banner.mp4" type="video/mp4">
                                 Your browser does not support the video tag.
                             </video> -->
-                            <img src="images/banner/banner.jpeg" alt="">
+                            <img src="images/about_kitchen2.jpg" alt="">
                             <div class="video_content text-white">
                                 <!-- <div class="play_icon">
                                     <i class="fa-solid fa-play yiyle"></i>
@@ -561,7 +531,7 @@ $services = [
                     <div class="col-lg-6">
                         <div class="about_imgbox">
 
-                            <img src="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1" alt="">
+                            <img src="images/about_kitchen.jpg" alt="">
                         </div>
 
                     </div>
@@ -596,20 +566,30 @@ $services = [
                     <div class="col-lg-6">
                         <div class="about_imgbox">
 
-                            <img src="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=500&h=500&dpr=1" alt="">
+                            <img src="images/about_bathroom2.jpg" alt="">
                         </div>
 
                     </div>
                     <div class="col-lg-6 pe-lg-5">
                         <h2 class="heading fontHeading fontWeight700 text-white">
-                        Personalized Approach
+                            Personalized Approach
                         </h2>
                         <p class="mt-4 text-white">
-                        We’ve learned that achieving customer satisfaction while building isn’t just a matter of creating a beautiful new space in your home. Satisfaction comes from delivering a level of service that leaves our clients knowing we listened to, appreciated and supported them from start to finish. By approaching the building process systematically and continuously improving these systems, we can consistently deliver a rewarding and beneficial customer experience every time.
+                            We’ve learned that achieving true customer satisfaction while building isn’t just about
+                            creating a beautiful new space in your home. While aesthetic appeal is important,
+                            satisfaction stems from much more — it’s about building trust, understanding your needs, and
+                            creating a lasting partnership. The real measure of our success is when our clients feel
+                            truly listened to, appreciated, and supported throughout the entire process.
+
+                            At Affinity Builders, we believe that exceptional service goes beyond just completing a
+                            project; it’s about making sure our clients feel confident and comfortable at every step.
+                            From the first consultation to the final walk-through, our team is dedicated to clear
+                            communication and transparent processes. We take the time to understand your vision, goals,
+                            and concerns, ensuring that we can tailor every decision to match your expectations.
 
 
                         </p>
-                       
+
                     </div>
 
 

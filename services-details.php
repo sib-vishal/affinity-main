@@ -182,7 +182,7 @@ $addtional = [
                             endless!</p>
 
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mt-5 mt-lg-0">
                         <div class="img_box_s_detail">
                             <img src="https://images.pexels.com/photos/2724749/pexels-photo-2724749.jpeg?auto=compress&cs=tinysrgb&w=12800&h=700&dpr=1"
                                 alt="">

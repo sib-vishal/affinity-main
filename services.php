@@ -202,7 +202,7 @@ $addtional = [
                         </ul>
 
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mt-4">
 
                         <div id="add_ser_carousel" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">

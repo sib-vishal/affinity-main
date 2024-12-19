@@ -1,4 +1,4 @@
-<?php $page = 'services'; ?>
+<?php $page = 'about'; ?>
 <?php
 $services = [
     [
@@ -499,18 +499,12 @@ $services = [
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="why_choose_video  pe-4">
-                            <!-- <video autoplay="" loop="" muted="">
-                                <source src="images/banner/banner.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video> -->
+                    <div class="col-lg-5 mt-5 mt-lg-0">
+                        <div class="why_choose_video  pe-lg-4">
+                           
                             <img src="images/about_kitchen2.jpg" alt="">
                             <div class="video_content text-white">
-                                <!-- <div class="play_icon">
-                                    <i class="fa-solid fa-play yiyle"></i>
-
-                                </div> -->
+                               
                                 <small class="text_primary_light title fontWeight700">
                                     *PA Licensed and Insured
                                 </small>
@@ -535,7 +529,7 @@ $services = [
                         </div>
 
                     </div>
-                    <div class="col-lg-6 ps-5">
+                    <div class="col-lg-6 mt-4 mt-lg-0 ps-lg-5">
                         <h2 class="heading fontHeading fontWeight700 text-white">
                             Excellence and Professionalism
                         </h2>
@@ -563,14 +557,14 @@ $services = [
 
                 </div>
                 <div class="row  align-items-lg-center  mt-5 flex-lg-row-reverse">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 ">
                         <div class="about_imgbox">
 
                             <img src="images/about_bathroom2.jpg" alt="">
                         </div>
 
                     </div>
-                    <div class="col-lg-6 pe-lg-5">
+                    <div class="col-lg-6 mt-4 mt-lg-0 pe-lg-5">
                         <h2 class="heading fontHeading fontWeight700 text-white">
                             Personalized Approach
                         </h2>

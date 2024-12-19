@@ -1,4 +1,4 @@
-<?php $page = 'Projects'; ?>
+<?php $page = 'portfolio'; ?>
 <?php
 $projects = [
     [
@@ -153,7 +153,7 @@ $projects = [
 <html lang="en">
 
 <head>
-    <title>Affinity Builders </title>
+    <title>Portfolio | Affinity Builders </title>
     <?php include 'include/head-links.php'; ?>
     <meta property="og:url" content="<?php echo $page_url ?>">
     <meta property="og:title" content="">
@@ -177,11 +177,7 @@ $projects = [
                         Recently Worked Projects
 
                     </h1>
-                    <p class="mt-3 text-white">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, repudiandae unde beatae accusamus
-                        laudantium fuga magni vel inventore perferendis ullam explicabo, nesciunt debitis. Itaque dicta
-                        repudiandae eos deleniti cum nisi.z
-                    </p>
+                    
 
                 </div>
             </div>
@@ -347,7 +343,7 @@ kitchens-tab">
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6  mt-5 mt-lg-0">
                     <div class="bannerForm_main">
                         <form action="" class="bg-white bannerForm">
                             <div class=" p-4 bg_primary text-white ">

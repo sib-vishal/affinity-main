@@ -1,4 +1,4 @@
-<?php $page = 'home'; ?>
+<?php $page = 'contact'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,7 +29,7 @@
 
                     </h1>
                     <p class="mt-3 text-white">
-                    connect with us. We will be sure to reply promptly. 
+                        connect with us. We will be sure to reply promptly.
                     </p>
 
                 </div>
@@ -43,7 +43,7 @@
 
                 <div class="row ">
 
-                    <div class="col " style="">
+                    <div class="col-md-6 col-lg-3 mb-3 " style="">
                         <div class="">
                             <div class="">
                                 <img width="70" class=" mb-20px icon " src="images/location.svg" alt="">
@@ -51,15 +51,15 @@
                             <div class=" ">
                                 <span class="d-block mt-2  mb-5px heading fontWeight700">Office
                                     location</span>
-                                <p class="w-80 xl-w-100 md-w-75 mx-auto snall">407 South 10TH ST Suite 103 
+                                <p class="w-80 xl-w-100 md-w-75 mx-auto snall">407 South 10TH ST Suite 103
 
-Philadelphia, PA 19147 </p>
+                                    Philadelphia, PA 19147 </p>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="col" style="">
+                    <div class="col-md-6 col-lg-3 mb-3" style="">
                         <div class="">
                             <div class="">
                                 <img width="70" class=" mb-20px icon " src="images/message.svg" alt="">
@@ -68,7 +68,8 @@ Philadelphia, PA 19147 </p>
                                 <span class="d-block mt-2  mb-5px heading fontWeight700">Send a
                                     message</span>
                                 <div class="w-100 d-block">
-                                    <a href="mailto:info@affinity-builders.com" class=" text-black  ">info@affinity-builders.com </a><br>
+                                    <a href="mailto:info@affinity-builders.com"
+                                        class=" text-black  ">info@affinity-builders.com </a><br>
 
                                 </div>
                             </div>
@@ -76,7 +77,7 @@ Philadelphia, PA 19147 </p>
                     </div>
 
 
-                    <div class="col " style="">
+                    <div class="col-md-6 col-lg-3 mb-3 " style="">
                         <div class="">
                             <div class="">
                                 <img width="70" class=" mb-20px icon " src="images/phone.svg" alt="">
@@ -93,7 +94,7 @@ Philadelphia, PA 19147 </p>
                     </div>
 
 
-                    <div class="col" style="">
+                    <div class="col-md-6 col-lg-3 mb-3" style="">
                         <div class="">
                             <div class="">
                                 <img width="70" class=" mb-20px icon " src="images/team.svg" alt="">
@@ -128,12 +129,12 @@ Philadelphia, PA 19147 </p>
                                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7737332.333742825!2d71.46959102657826!3d18.753791478416602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcfc41e9c9cd6f9%3A0x1b2f22924be04fb6!2sMaharashtra!5e0!3m2!1sen!2sin!4v1724676484004!5m2!1sen!2sin"
                                     width="600" height="460" style="border:0;" allowfullscreen="" loading="lazy"
                                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                                   
+
                             </div>
                         </div>
 
                     </div>
-                    <div class="col-lg-6 aos-init contact_page aos-animate" data-aos="zoom-in-up">
+                    <div class="col-lg-6 mt-5 mt-lg-0 aos-init contact_page aos-animate" data-aos="zoom-in-up">
                         <div class="contactForm1 w-100">
 
                             <div class="row ">

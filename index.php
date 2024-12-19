@@ -172,11 +172,6 @@ $projects = [
         <?php include 'include/header.php'; ?>
         <div class="banner-wrapper">
             <div class="banner-video">
-                <!-- <video src="" loop muted autoplay poster="/images/poster.png"></video> -->
-                <!-- <video loop muted autoplay poster="images/poster.png">
-                    <source src="images/banner/Ad.mp4" type="video/mp4">
-
-                </video> -->
                 <img src="images/banner/banner.jpeg" alt="">
             </div>
             <div class="banner-text d-flex align-items-center justify-content-center">
@@ -184,9 +179,7 @@ $projects = [
                     <h1 class="fontHeading large_heading text-white" data-aos="flip-up" data-aos-duration="1500">
                         Affinity Builders
                     </h1>
-                    <!-- <p class="mt-4 text-white" data-aos="fade-up" data-aos-duration="1000">
-                    Revitalize Your Space with Affinity Builders!
-                    </p> -->
+               
                     <h2 class="mt-4 small_heading text-white" data-aos="fade-up" data-aos-duration="1000">
                         Home Remodeling Company
                     </h2>
@@ -215,7 +208,7 @@ $projects = [
                             <!-- <p class="mb-0 fontWeight600">15 years + of experience | *PA Licensed and Insured</p> -->
                             <!-- <img class="sipralarrow1" src="images/spiral2.png" alt=""> -->
                         </div>
-                        <div>
+                        <div class="about_btn">
                             <a class="btn fontWeight600 header-btn" href=""><i class="fa-solid fa-phone me-1"></i>
                                 Request a Quote</a>
 
@@ -250,10 +243,10 @@ $projects = [
         <!--Who we are end-->
 
         <!--Expert team start-->
-        <section class="bg_secondary">
+        <section class="bg_secondary experties_home">
             <div class="containerFull">
                 <div class="row border-top border-bottom">
-                    <div class="col-md-4 border-end-md border-end border-bottom-md-0">
+                    <div class=" experties_card col-md-4 border-end-md border-end border-bottom-md-0">
                         <div class="text-center py-lg-5 p-4">
                             <div class="mb-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff"
@@ -269,7 +262,7 @@ $projects = [
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 border-end-md border-end border-bottom-md-0">
+                    <div class=" experties_card col-md-4 border-end-md border-end border-bottom-md-0">
                         <div class="text-center py-lg-5 p-4">
                             <div class="mb-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff"
@@ -285,7 +278,7 @@ $projects = [
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 border-end-md border-bottom border-bottom-md-0">
+                    <div class=" experties_card col-md-4 border-end-md ">
                         <div class="text-center py-lg-5 p-4">
                             <div class="mb-4">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff"
@@ -315,7 +308,7 @@ $projects = [
                     </div>
 
                 </div>
-                <div class="item p-5 ">
+                <div class="item p-3 p-md-5 ">
                     <h4 class="heading fontHeading fontWeight800 text_secondary">
                         Our Services
                     </h4>
@@ -381,7 +374,7 @@ $projects = [
 
             </div>
         </section>
-        \ <!-- our services -->
+        <!-- our services -->
         <!-- <section>
             <div class="containerFull">
                 <small class="text-uppercase title ls-md fw-semibold text_primary">
@@ -572,7 +565,7 @@ $projects = [
                             <!-- <i class="fa-solid fa-arrow-right-long ms-2"></i> -->
                         </a>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mt-5 mt-lg-0">
                         <div class="choose_card">
                             <div class="pe-5 large_heading fontHeading fontWeight900">
                                 #1
@@ -695,17 +688,17 @@ $projects = [
 
         </section> -->
         <!-- our process -->
-        <section>
+        <section class="">
             <div class="containerFull">
 
                 <small class="text-uppercase title ls-md fw-semibold text_primary"> How we works</small>
                 <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text-Primary">
                     Our Process To Decorate Your Personel Space
                 </h4>
-                <div class="row mt-5">
+                <div class="row mt-5 item_process_main">
 
-                    <div class="col-lg-6 mb-4">
-                        <div class="item_process d-flex align-items-center">
+                    <div class="col-lg-6 mb-4 ">
+                        <div class="item_process ">
                             <div class="process_img">
                                 <img src="images/home/add-services.jpeg" alt="">
 
@@ -727,7 +720,7 @@ $projects = [
                         </div>
                     </div>
                     <div class="col-lg-6 mb-4">
-                        <div class="item_process d-flex align-items-center">
+                        <div class="item_process  ">
                             <div class="process_img">
                                 <img src="images/home/add-services.jpeg" alt="">
 
@@ -749,7 +742,7 @@ $projects = [
                         </div>
                     </div>
                     <div class="col-lg-6 mb-4">
-                        <div class="item_process d-flex flex-row-reverse align-items-center">
+                        <div class="item_process   ">
                             <div class="process_img">
                                 <img src="images/home/add-services.jpeg" alt="">
 
@@ -770,7 +763,7 @@ $projects = [
                         </div>
                     </div>
                     <div class="col-lg-6 mb-4">
-                        <div class="item_process d-flex flex-row-reverse align-items-center">
+                        <div class="item_process   ">
                             <div class="process_img">
                                 <img src="images/home/add-services.jpeg" alt="">
 
@@ -1073,7 +1066,7 @@ $projects = [
 
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 mt-5 mt-lg-0">
                         <div class="bannerForm_main">
                             <form action="" class="bg-white bannerForm">
                                 <div class=" p-4 bg_primary text-white ">

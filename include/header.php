@@ -3,33 +3,73 @@
 		<div class="inlineHeader">
 			<div class="leftLogo">
 				<a href="index.php">
-					<!-- <h4 class="fontHeading">
-						Wooden Flooring
-					</h4> -->
-					<img  src="images/logo.png.webp" alt="">
+					<img src="images/logo.png.webp" alt="">
 				</a>
 			</div>
-			<div class="menu-links">
+			<div class="menu-links d-none d-lg-block">
 				<ul>
-					<li><a href="index.php">Home</a></li>
-					<li><a href="about-us.php">About Us</a></li>
-					<li><a href="services.php">Services</a></li>
-					<li><a href="portfolio.php">Portfolio</a></li>
-					<!-- <li><a href="blog.php">Blog</a></li> -->
-					<li><a href="contact-us.php">Contact</a></li>
-					<!-- <li><a href="#Vinyl_Flooring">Vinyl Flooring</a></li> -->
-					<!-- <li><a href="#">Location</a></li> -->
+					<li><a class="<?= ($page == 'home') ? 'active' : ''; ?>" href="index.php">Home</a></li>
+					<li><a class="<?= ($page == 'about') ? 'active' : ''; ?>" href="about-us.php">About Us</a></li>
+					<li><a class="<?= ($page == 'services') ? 'active' : ''; ?>" href="services.php">Services</a></li>
+					<li><a class="<?= ($page == 'portfolio') ? 'active' : ''; ?>" href="portfolio.php">Portfolio</a>
+					</li>
+					<li><a class="<?= ($page == 'contact') ? 'active' : ''; ?>" href="contact-us.php">Contact</a></li>
 				</ul>
 
 
+
 			</div>
 
-			<a class="btn fontWeight600 header-btn" href="tel:267-645-9005 "><i class="fa-solid fa-phone me-1"></i> 267-645-9005</a>
+			<div class="header_bottons">
+
+				<a class="btn fontWeight600 header-btn" href="tel:267-645-9005 "><i class="fa-solid fa-phone me-1"></i>
+					267-645-9005</a>
+
+				<button class="btnMenu ms-3  d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+					aria-controls="offcanvasRight"><i class="fa fa-bars"></i></button>
+			</div>
+
 
 
 		</div>
 	</div>
 </header>
+
+<div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasRight" aria-labelledby="mobileMenuLabel"
+	aria-modal="true" role="dialog">
+	<div class="offcanvas-header border-bottom">
+		<a href="index.php">
+
+			<img src="images/logo.png.webp" alt="">
+		</a>
+		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+	</div>
+	<div class="offcanvas-body">
+		<ul class="list-unstyled innerMenu menu_item">
+
+			<ul>
+				<li><a class="<?= ($page == 'home') ? 'active' : ''; ?>" href="index.php">Home</a></li>
+				<li><a class="<?= ($page == 'about') ? 'active' : ''; ?>" href="about-us.php">About Us</a></li>
+				<li><a class="<?= ($page == 'services') ? 'active' : ''; ?>" href="services.php">Services</a></li>
+				<li><a class="<?= ($page == 'portfolio') ? 'active' : ''; ?>" href="portfolio.php">Portfolio</a></li>
+				<li><a class="<?= ($page == 'contact') ? 'active' : ''; ?>" href="contact-us.php">Contact</a></li>
+			</ul>
+
+	</div>
+	<div class="mobileOther">
+		<p>Should you have inquiries, contact us:</p>
+		<p><a href="tel:267-645-9005"><i class="fa fa-phone"></i> 267-645-9005</a></p>
+
+		<div class="socialLink">
+			<ul>
+				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+				<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+				<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
 
 
 

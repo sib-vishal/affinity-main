@@ -6,7 +6,7 @@
 					<img src="images/logo.png.webp" alt="">
 				</a>
 			</div>
-			<div class="menu-links d-none d-lg-block">
+			<div class="menu-links d-none d-lg-block ">
 				<ul>
 					<li><a class="<?= ($page == 'home') ? 'active' : ''; ?>" href="index.php">Home</a></li>
 					<li><a class="<?= ($page == 'about') ? 'active' : ''; ?>" href="about-us.php">About Us</a></li>
@@ -44,16 +44,16 @@
 		</a>
 		<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 	</div>
-	<div class="offcanvas-body">
+	<div class="offcanvas-body pt-3">
 		<ul class="list-unstyled innerMenu menu_item">
 
-			<ul>
+			
 				<li><a class="<?= ($page == 'home') ? 'active' : ''; ?>" href="index.php">Home</a></li>
 				<li><a class="<?= ($page == 'about') ? 'active' : ''; ?>" href="about-us.php">About Us</a></li>
 				<li><a class="<?= ($page == 'services') ? 'active' : ''; ?>" href="services.php">Services</a></li>
 				<li><a class="<?= ($page == 'portfolio') ? 'active' : ''; ?>" href="portfolio.php">Portfolio</a></li>
 				<li><a class="<?= ($page == 'contact') ? 'active' : ''; ?>" href="contact-us.php">Contact</a></li>
-			</ul>
+		
 
 	</div>
 	<div class="mobileOther">

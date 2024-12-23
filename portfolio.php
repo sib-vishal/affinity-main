@@ -2,152 +2,208 @@
 <?php
 $projects = [
     [
-        'image' => 'https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Sunset Over the Ocean',
-        'description' => 'A breathtaking view of the sunset over the ocean waves.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/2249959/pexels-photo-2249959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Mountain Adventure',
-        'description' => 'Exploring the beautiful mountain ranges and valleys.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'City Skyline at Night',
-        'description' => 'The dazzling city lights against a starry night sky.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Autumn Forest',
-        'description' => 'A tranquil forest scene showcasing the colors of autumn.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Desert Dunes',
-        'description' => 'The serene beauty of rolling sand dunes in the desert.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Snowy Mountains',
-        'description' => 'Majestic snowy peaks during the winter season.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/1129413/pexels-photo-1129413.jpeg?auto=compress&cs=tinysrgb&w=600',
-        'title' => 'Beach Paradise',
-        'description' => 'Relaxing on a pristine beach with crystal-clear water.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/827518/pexels-photo-827518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Floral Garden',
-        'description' => 'A vibrant garden filled with colorful blooming flowers.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/2227832/pexels-photo-2227832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Peaceful Lake',
-        'description' => 'A serene lake reflecting the surrounding nature.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/245208/pexels-photo-245208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Rugged Coastline',
-        'description' => 'The dramatic cliffs and waves crashing on the shore.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Starry Night Sky',
-        'description' => 'The beauty of the Milky Way shining bright at night.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Lush Green Fields',
-        'description' => 'Expansive fields filled with greenery and wildflowers.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Misty Forest',
-        'description' => 'A mystical forest enveloped in morning fog.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/1571471/pexels-photo-1571471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Wildlife Safari',
-        'description' => 'Encountering wildlife in their natural habitat.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    // New projects for bathrooms and kitchens
-    [
-        'image' => 'https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'id' => 1,
+        'image' => 'images/portfolio/project-1-2.jpg',
         'title' => 'Modern Bathroom',
-        'description' => 'A sleek and modern bathroom design.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'bathroom'
+        'short_description' => 'This contemporary transformation blends modern aesthetics with luxurious fixtures, creating a serene oasis right at home.',
+        'description' => '<h1 class="project-title">Modern Bathroom Transformation</h1>
+    
+    <p class="project-description">
+        This contemporary transformation blends modern aesthetics with luxurious fixtures, creating a serene oasis right at home.
+        Featuring a range of high-end Kohler products, this bathroom offers both style and functionality, providing a spa-like experience every day.
+    </p>
+    
+    <h2>Key Features</h2>
+    <ul class="project-features">
+        <li>Innovative Kohler 8 Rainhead with Katalyst Air Induction Technology, offering a refreshing rain-like shower experience.</li>
+        <li>Kohler Purist multi-function showerhead.</li>
+        <li>Kohler Shift Square handheld shower in sleek chrome finishes.</li>
+    </ul>
+    
+    <p class="project-description">
+        These fixtures not only enhance the showering experience but also add a touch of modern elegance, elevating the overall look and feel of the bathroom.
+    </p>
+
+    <h3>Visual Highlights</h3>
+    <p>Below are images of the transformation, showcasing the stunning changes in both design and functionality.</p>
+
+
+        
+        ',
+        'pageUrl' => 'project-details.php?project=1',
+        'type' => 'bathroom',
+        'beforeAfter' => [
+            'before' => 'images/portfolio/project-1.jpg',
+            'after' => 'images/portfolio/project-1-2.jpg',
+        ],
+        'gallery' => [
+            'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg',
+            'https://images.pexels.com/photos/261174/pexels-photo-261174.jpeg',
+        ],
     ],
     [
-        'image' => 'https://images.pexels.com/photos/1358900/pexels-photo-1358900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Cozy Kitchen',
-        'description' => 'A cozy kitchen with warm lighting and a rustic feel.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'kitchen'
+        'id' => 2,
+        'image' => 'images/portfolio/Basement_1_before.jpg',
+        'title' => 'Basement Remodeling',
+        'short_description' => 'This modern transformation blends modern aesthetics with luxurious fixtures, creating a serene oasis right at home.',
+
+
+        'description' => '<h1 class="project-title">Basement Remodeling: From Storage to Stunning</h1>
+    
+    <p class="project-description">
+        This basement transformation reimagines an underutilized space into a functional, stylish, and comfortable area for the entire family. 
+        With a mix of contemporary design and practical features, this remodel turned a storage-heavy basement into a vibrant living area.
+    </p>
+    
+    <h2>Key Features</h2>
+    <ul class="project-features">
+        <li>Open-concept design with ample natural and ambient lighting.</li>
+        <li>Luxury vinyl plank flooring for durability and style.</li>
+        <li>Custom-built shelving and cabinetry for optimized storage.</li>
+        <li>Dedicated areas for entertainment, relaxation, and a home office.</li>
+        <li>High-efficiency HVAC system for consistent climate control.</li>
+    </ul>
+    
+    <p class="project-description">
+        The remodel introduced versatile spaces that blend aesthetics with functionality, making it the perfect spot for gatherings, leisure, or productivity.
+        Thoughtful design elements such as recessed lighting and neutral tones create a warm and inviting atmosphere.
+    </p>
+
+    <h3>Visual Highlights</h3>
+    <p>Below are images of the transformation, showcasing the remarkable evolution of this space.</p>
+',
+        'pageUrl' => 'project-details.php?project=2',
+        'type' => 'basement',
+        'beforeAfter' => [
+            'before' => 'images/portfolio/Basement_1_before.jpg',
+            'after' => 'images/portfolio/Basement_1_after.jpg',
+        ],
+        'gallery' => [
+            'https://images.pexels.com/photos/1401346/pexels-photo-1401346.jpeg',
+            'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg',
+        ],
     ],
     [
-        'image' => 'https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Elegant Bathroom',
-        'description' => 'An elegant bathroom with luxurious fixtures.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'bathroom'
+        'id' => 3,
+        'image' => 'images/portfolio/Kitchen_After1.jpg',
+        'title' => 'Kitchen Remodel no. 2',
+        'short_description' => 'This contemporary transformation blends modern aesthetics with luxurious fixtures, creating a serene oasis right at home.',
+        'description' => '<h1 class="project-title">Kitchen Remodel: A Cozy and Functional Culinary Haven</h1>
+    
+    <p class="project-description">
+        This kitchen remodel blends rustic charm with modern functionality, creating a space that’s as inviting as it is practical. 
+        With warm lighting, natural wood finishes, and state-of-the-art appliances, the kitchen has been transformed into the heart of the home.
+    </p>
+    
+    <h2>Key Features</h2>
+    <ul class="project-features">
+        <li>Custom cabinetry with soft-close hinges for sleek storage solutions.</li>
+        <li>Quartz countertops offering durability and timeless elegance.</li>
+        <li>Energy-efficient stainless steel appliances for enhanced performance.</li>
+        <li>Undermount farmhouse sink paired with a brushed nickel faucet.</li>
+        <li>Subway tile backsplash for a clean, classic aesthetic.</li>
+    </ul>
+    
+    <p class="project-description">
+        Thoughtfully designed with family gatherings in mind, this kitchen maximizes space with an open layout, a large island for meal prep, 
+        and a cozy dining nook. The balance between rustic elements and modern upgrades creates a timeless appeal.
+    </p>
+
+    <h3>Visual Highlights</h3>
+    <p>See the transformation below, highlighting the charm and functionality of the redesigned space.</p>
+',
+        'pageUrl' => 'project-details.php?project=3',
+        'type' => 'kitchen',
+        'beforeAfter' => [
+            'before' => 'images/portfolio/Kitchen_After1.jpg',
+            'after' => 'images/portfolio/Kitchen_Before1.jpg',
+        ],
+        'gallery' => [
+            'https://images.pexels.com/photos/326678/pexels-photo-326678.jpeg',
+            'https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg',
+        ],
     ],
     [
-        'image' => 'https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Sleek Kitchen',
-        'description' => 'A sleek kitchen design with modern appliances.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'kitchen'
+        'id' => 4,
+        'image' => 'images/portfolio/bathroom_after2.jpg',
+        'title' => 'Bathroom Remodel no. 1',
+        'short_description' => 'Experience the ultimate blend of luxury and functionality with this bathroom remodel. This transformation has redefined comfort with its clean, contemporary design, premium fixtures, and a serene atmosphere.',
+        'description' => '<h1 class="project-title">Bathroom Remodel: A Modern Oasis</h1>
+    
+    <p class="project-description">
+        Experience the ultimate blend of luxury and functionality with this bathroom remodel. This transformation has redefined comfort with its clean, contemporary design, premium fixtures, and a serene atmosphere. The space now exudes elegance while offering unmatched utility.
+    </p>
+    
+    <h2>Key Features</h2>
+    <ul class="project-features">
+        <li>Innovative Kohler 8 Rainhead with Katalyst Air Induction Technology for a spa-like rain shower experience.</li>
+        <li>Kohler Purist multi-function showerhead offering customizable shower settings.</li>
+        <li>Sleek, frameless glass shower enclosure for a modern aesthetic.</li>
+        <li>Wall-mounted vanity with soft-close drawers and an integrated sink.</li>
+        <li>Large-format tiles in neutral tones for a clean and expansive look.</li>
+    </ul>
+    
+    <p class="project-description">
+        The combination of high-end fixtures, smart design choices, and a neutral color palette creates a calming retreat that is perfect for relaxation. With its thoughtful layout, this bathroom optimizes every inch of space while maintaining a luxurious feel.
+    </p>
+
+    <h3>Visual Highlights</h3>
+    <p>See how this bathroom went from outdated to outstanding with the images below.</p>
+',
+        'pageUrl' => 'project-details.php?project=4',
+        'type' => 'bathroom',
+        'beforeAfter' => [
+            'before' => 'images/portfolio/bathroom_before2.jpg',
+            'after' => 'images/portfolio/bathroom_after2.jpg',
+        ],
+        'gallery' => [
+            'https://images.pexels.com/photos/593172/pexels-photo-593172.jpeg',
+            'https://images.pexels.com/photos/271755/pexels-photo-271755.jpeg',
+        ],
+    ],
+
+    [
+        'id' => 5,
+        'image' => 'images/portfolio/3_after.jpg',
+        'title' => 'Third Flr Remodel',
+        'short_description' => 'Experience the ultimate blend of luxury and functionality with this bathroom remodel. This transformation has redefined comfort with its clean, contemporary design, premium fixtures, and a serene atmosphere.',
+        'description' => ' <h1 class="project-title">Third Floor Remodel: A Stunning Transformation</h1>
+    
+    <p class="project-description">
+        The third floor has been completely reimagined to serve as a multifunctional living space, combining comfort, practicality, and aesthetic appeal. With an open-concept design, high-quality materials, and modern features, this remodel has transformed an underutilized area into the perfect retreat.
+    </p>
+    
+    <h2>Key Features</h2>
+    <ul class="project-features">
+        <li>Open-plan layout creating a spacious and airy environment.</li>
+        <li>Luxurious hardwood flooring for a warm and inviting atmosphere.</li>
+        <li>Custom-built storage solutions for maximum functionality.</li>
+        <li>Energy-efficient LED lighting integrated throughout the space.</li>
+        <li>Neutral color palette accented with vibrant décor for a modern touch.</li>
+    </ul>
+    
+    <p class="project-description">
+        Whether used as a private retreat, home office, or entertainment area, the remodeled third floor now seamlessly blends form and function. The thoughtful design ensures a harmonious balance of natural light, storage, and living space, tailored to suit a variety of needs.
+    </p>
+
+    <h3>Visual Highlights</h3>
+    <p>Take a look at the stunning transformation with the images below.</p>
+
+',
+        'pageUrl' => 'project-details.php?project=5',
+        'type' => 'other',
+        'beforeAfter' => [
+            'before' => 'images/portfolio/3_before.jpg',
+            'after' => 'images/portfolio/3_after.jpg',
+        ],
+        'gallery' => [
+            'https://images.pexels.com/photos/593172/pexels-photo-593172.jpeg',
+            'https://images.pexels.com/photos/271755/pexels-photo-271755.jpeg',
+        ],
     ],
 ];
 ?>
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -177,7 +233,7 @@ $projects = [
                         Recently Worked Projects
 
                     </h1>
-                    
+
 
                 </div>
             </div>
@@ -187,12 +243,11 @@ $projects = [
             <div class="containerFull">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-6">
-                        <!-- <small class="text-uppercase title ls-md fw-semibold text_primary fontWeight500">Gallery</small> -->
-                        <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text_secondary">
+                        <h4 class="fontHeading heading mt-3 mb-3 fontWeight900 text_secondary">
                             Explore Our Projects
                         </h4>
                     </div>
-                    <div class="tabs_btn" style="width:fit-content">
+                    <div class="tabs_btn" style="width: fit-content;">
                         <ul class="nav nav-tabs" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link active" id="showAll-tab" data-bs-toggle="tab" href="#showAll"
@@ -208,103 +263,79 @@ $projects = [
                             </li>
                         </ul>
                     </div>
-
                 </div>
             </div>
 
-        
-        <div class="containerFull">
-
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="showAll" role="tabpanel" aria-labelledby="showAll-tab">
-                    <div class="project_gallery mt-5">
-                        <div class="gallery row row-cols-md-2 row-cols-lg-3">
-                            <?php foreach ($projects as $project): ?>
-                                <div class="gallery_item">
-                                    <a <?php echo $project['useFancyBox'] ? 'data-fancybox="gallery"' : ''; ?>
-                                        href="<?php echo $project['useFancyBox'] ? $project['image'] : $project['pageUrl']; ?>">
-                                        <img src="<?php echo $project['image']; ?>" alt="<?php echo $project['title']; ?>"
-                                            loading="lazy" />
-                                    </a>
-                                    <div class="gallery_card_content">
-                                        <h4 class="text_secondary"><?php echo $project['title']; ?></h4>
-                                        <p class="text_secondary"><?php echo $project['description']; ?></p>
-                                    </div>
-                                </div>
-                            <?php endforeach; ?>
-                        </div>
-                    </div>
-                </div>
-    
-                <div class="tab-pane fade" id="bathroom" role="tabpanel" aria-labelledby="bathroom-tab">
-                    <div class="project_gallery mt-5">
-                        <div class="gallery row row-cols-md-2 row-cols-lg-3">
-                            <?php foreach ($projects as $project): ?>
-                                <?php if ($project['type'] === 'bathroom'): ?>
+            <div class="containerFull">
+                <div class="tab-content" id="myTabContent">
+                    <!-- Show All Tab -->
+                    <div class="tab-pane fade show active" id="showAll" role="tabpanel" aria-labelledby="showAll-tab">
+                        <div class="project_gallery mt-5">
+                            <div class="gallery row row-cols-md-2 row-cols-lg-3">
+                                <?php foreach ($projects as $project): ?>
                                     <div class="gallery_item">
-                                        <a <?php echo $project['useFancyBox'] ? 'data-fancybox="gallery"' : ''; ?>
-                                            href="<?php echo $project['useFancyBox'] ? $project['image'] : $project['pageUrl']; ?>">
-                                            <img src="<?php echo $project['image']; ?>" alt="<?php echo $project['title']; ?>"
-                                                loading="lazy" />
+                                        <a href="<?php echo $project['pageUrl']; ?>">
+                                            <img src="<?php echo $project['image']; ?>"
+                                                alt="<?php echo $project['title']; ?>" loading="lazy" />
                                         </a>
                                         <div class="gallery_card_content">
                                             <h4 class="text_secondary"><?php echo $project['title']; ?></h4>
-                                            <p class="text_secondary"><?php echo $project['description']; ?></p>
+                                            <p class="text_secondary"><?php echo $project['short_description']; ?></p>
                                         </div>
                                     </div>
-                                <?php endif; ?>
-                            <?php endforeach; ?>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bathroom Tab -->
+                    <div class="tab-pane fade" id="bathroom" role="tabpanel" aria-labelledby="bathroom-tab">
+                        <div class="project_gallery mt-5">
+                            <div class="gallery row row-cols-md-2 row-cols-lg-3">
+                                <?php foreach ($projects as $project): ?>
+                                    <?php if ($project['type'] === 'bathroom'): ?>
+                                        <div class="gallery_item">
+                                            <a href="<?php echo $project['pageUrl']; ?>">
+                                                <img src="<?php echo $project['image']; ?>"
+                                                    alt="<?php echo $project['title']; ?>" loading="lazy" />
+                                            </a>
+                                            <div class="gallery_card_content">
+                                                <h4 class="text_secondary"><?php echo $project['title']; ?></h4>
+                                                <p class="text_secondary"><?php echo $project['short_description']; ?></p>
+                                            </div>
+                                        </div>
+                                    <?php endif; ?>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Kitchens Tab -->
+                    <div class="tab-pane fade" id="kitchen" role="tabpanel" aria-labelledby="kitchen-tab">
+                        <div class="project_gallery mt-5">
+                            <div class="gallery row row-cols-md-2 row-cols-lg-3">
+                                <?php foreach ($projects as $project): ?>
+                                    <?php if ($project['type'] === 'kitchen'): ?>
+                                        <div class="gallery_item">
+                                            <a href="<?php echo $project['pageUrl']; ?>">
+                                                <img src="<?php echo $project['image']; ?>"
+                                                    alt="<?php echo $project['title']; ?>" loading="lazy" />
+                                            </a>
+                                            <div class="gallery_card_content">
+                                                <h4 class="text_secondary"><?php echo $project['title']; ?></h4>
+                                                <p class="text_secondary"><?php echo $project['short_description']; ?></p>
+                                            </div>
+                                        </div>
+                                    <?php endif; ?>
+                                <?php endforeach; ?>
+                            </div>
                         </div>
                     </div>
                 </div>
-    
-                <div class="tab-pane fade" id="kitchens" role="tabpanel" aria-labelledby="kitchens-tab">
-                    <div class="project_gallery mt-5">
-                        <div class="gallery row row-cols-md-2 row-cols-lg-3">
-                            <?php foreach ($projects as $project): ?>
-                                <?php if ($project['type'] === 'kitchen'): ?>
-                                    <div class="gallery_item">
-                                        <a <?php echo $project['useFancyBox'] ? 'data-fancybox="gallery"' : ''; ?>
-                                            href="<?php echo $project['useFancyBox'] ? $project['image'] : $project['pageUrl']; ?>">
-                                            <img src="<?php echo $project['image']; ?>" alt="<?php echo $project['title']; ?>"
-                                                loading="lazy" />
-                                        </a>
-                                        <div class="gallery_card_content">
-                                            <h4 class="text_secondary"><?php echo $project['title']; ?></h4>
-                                            <p class="text_secondary"><?php echo $project['description']; ?></p>
-                                        </div>
-                                    </div>
-                                <?php endif; ?>
-                            <?php endforeach; ?>
-                        </div>
-                    </div>
-                </div>
             </div>
-        </div>
-
-    </div>
-    </section>
-
-    <!-- <div class="containerFull mt-5">
+        </section>
 
 
-
-
-            <div class="tab-pane fade show active" id="showALl" role="tabpanel" aria-labelledby="showAll-tab">
-                <h3>Home Tab</h3>
-                <p>This is the content for the Home tab.</p>
-            </div>
-            <div class="tab-pane fade" id="bathroom" role="tabpanel" aria-labelledby="bathroom-tab">
-                <h3>Profile Tab</h3>
-                <p>This is the content for the Profile tab.</p>
-            </div>
-            <div class="tab-pane fade" id="
-kitchens" role="tabpanel" aria-labelledby="
-kitchens-tab">
-                <h3>Contact Tab</h3>
-                <p>This is the content for the Contact tab.</p>
-            </div>
-        </div> -->
     </div>
 
 

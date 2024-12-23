@@ -2,152 +2,224 @@
 <?php
 $projects = [
     [
-        'image' => 'https://images.pexels.com/photos/2343468/pexels-photo-2343468.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Sunset Over the Ocean',
-        'description' => 'A breathtaking view of the sunset over the ocean waves.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/2249959/pexels-photo-2249959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Mountain Adventure',
-        'description' => 'Exploring the beautiful mountain ranges and valleys.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'City Skyline at Night',
-        'description' => 'The dazzling city lights against a starry night sky.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Autumn Forest',
-        'description' => 'A tranquil forest scene showcasing the colors of autumn.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/667838/pexels-photo-667838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Desert Dunes',
-        'description' => 'The serene beauty of rolling sand dunes in the desert.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Snowy Mountains',
-        'description' => 'Majestic snowy peaks during the winter season.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/1129413/pexels-photo-1129413.jpeg?auto=compress&cs=tinysrgb&w=600',
-        'title' => 'Beach Paradise',
-        'description' => 'Relaxing on a pristine beach with crystal-clear water.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    [
-        'image' => 'https://images.pexels.com/photos/827518/pexels-photo-827518.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        'title' => 'Floral Garden',
-        'description' => 'A vibrant garden filled with colorful blooming flowers.',
-        'useFancyBox' => false,
-        'pageUrl' => 'project-details.php',
-        'type' => 'other'
-    ],
-    // [
-    //     'image' => 'https://images.pexels.com/photos/2227832/pexels-photo-2227832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    //     'title' => 'Peaceful Lake',
-    //     'description' => 'A serene lake reflecting the surrounding nature.',
-    //     'useFancyBox' => false,
-    //     'pageUrl' => 'project-details.php',
-    //     'type' => 'other'
-    // ],
-    // [
-    //     'image' => 'https://images.pexels.com/photos/245208/pexels-photo-245208.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    //     'title' => 'Rugged Coastline',
-    //     'description' => 'The dramatic cliffs and waves crashing on the shore.',
-    //     'useFancyBox' => false,
-    //     'pageUrl' => 'project-details.php',
-    //     'type' => 'other'
-    // ],
-    // [
-    //     'image' => 'https://images.pexels.com/photos/462235/pexels-photo-462235.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    //     'title' => 'Starry Night Sky',
-    //     'description' => 'The beauty of the Milky Way shining bright at night.',
-    //     'useFancyBox' => false,
-    //     'pageUrl' => 'project-details.php',
-    //     'type' => 'other'
-    // ],
-    // [
-    //     'image' => 'https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    //     'title' => 'Lush Green Fields',
-    //     'description' => 'Expansive fields filled with greenery and wildflowers.',
-    //     'useFancyBox' => false,
-    //     'pageUrl' => 'project-details.php',
-    //     'type' => 'other'
-    // ],
-    // [
-    //     'image' => 'https://images.pexels.com/photos/276583/pexels-photo-276583.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    //     'title' => 'Misty Forest',
-    //     'description' => 'A mystical forest enveloped in morning fog.',
-    //     'useFancyBox' => false,
-    //     'pageUrl' => 'project-details.php',
-    //     'type' => 'other'
-    // ],
-    // [
-    //     'image' => 'https://images.pexels.com/photos/1571471/pexels-photo-1571471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    //     'title' => 'Wildlife Safari',
-    //     'description' => 'Encountering wildlife in their natural habitat.',
-    //     'useFancyBox' => false,
-    //     'pageUrl' => 'project-details.php',
-    //     'type' => 'other'
-    // ],
+        'id' => 1,
+        'image' => 'https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Modern Bathroom',
+        'short_description' => 'This contemporary transformation blends modern aesthetics with luxurious fixtures, creating a serene oasis right at home.',
+        'description' => '<h1 class="project-title">Modern Bathroom Transformation</h1>
+    
+    <p class="project-description">
+        This contemporary transformation blends modern aesthetics with luxurious fixtures, creating a serene oasis right at home.
+        Featuring a range of high-end Kohler products, this bathroom offers both style and functionality, providing a spa-like experience every day.
+    </p>
+    
+    <h2>Key Features</h2>
+    <ul class="project-features">
+        <li>Innovative Kohler 8 Rainhead with Katalyst Air Induction Technology, offering a refreshing rain-like shower experience.</li>
+        <li>Kohler Purist multi-function showerhead.</li>
+        <li>Kohler Shift Square handheld shower in sleek chrome finishes.</li>
+    </ul>
+    
+    <p class="project-description">
+        These fixtures not only enhance the showering experience but also add a touch of modern elegance, elevating the overall look and feel of the bathroom.
+    </p>
 
-    // [
-    //     'image' => 'https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    //     'title' => 'Modern Bathroom',
-    //     'description' => 'A sleek and modern bathroom design.',
-    //     'useFancyBox' => false,
-    //     'pageUrl' => 'project-details.php',
-    //     'type' => 'bathroom'
-    // ],
-    // [
-    //     'image' => 'https://images.pexels.com/photos/1358900/pexels-photo-1358900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    //     'title' => 'Cozy Kitchen',
-    //     'description' => 'A cozy kitchen with warm lighting and a rustic feel.',
-    //     'useFancyBox' => false,
-    //     'pageUrl' => 'project-details.php',
-    //     'type' => 'kitchen'
-    // ],
-    // [
-    //     'image' => 'https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    //     'title' => 'Elegant Bathroom',
-    //     'description' => 'An elegant bathroom with luxurious fixtures.',
-    //     'useFancyBox' => false,
-    //     'pageUrl' => 'project-details.php',
-    //     'type' => 'bathroom'
-    // ],
-    // [
-    //     'image' => 'https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-    //     'title' => 'Sleek Kitchen',
-    //     'description' => 'A sleek kitchen design with modern appliances.',
-    //     'useFancyBox' => false,
-    //     'pageUrl' => 'project-details.php',
-    //     'type' => 'kitchen'
-    // ],
+    <h3>Visual Highlights</h3>
+    <p>Below are images of the transformation, showcasing the stunning changes in both design and functionality.</p>
+
+
+        
+        ',
+        'pageUrl' => 'project-details.php?project=1',
+        'type' => 'bathroom',
+        'beforeAfter' => [
+            'before' => 'images/portfolio/project-1.jpg',
+            'after' => 'images/portfolio/project-1-2.jpg',
+        ],
+        'gallery' => [
+            'https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg',
+            'https://images.pexels.com/photos/261174/pexels-photo-261174.jpeg',
+        ],
+    ],
+    [
+        'id' => 2,
+        'image' => 'images/portfolio/Basement_1_before.jpg',
+        'title' => 'Basement Remodeling',
+        'short_description' => 'This modern transformation blends modern aesthetics with luxurious fixtures, creating a serene oasis right at home.',
+
+
+        'description' => '<h1 class="project-title">Basement Remodeling: From Storage to Stunning</h1>
+    
+    <p class="project-description">
+        This basement transformation reimagines an underutilized space into a functional, stylish, and comfortable area for the entire family. 
+        With a mix of contemporary design and practical features, this remodel turned a storage-heavy basement into a vibrant living area.
+    </p>
+    
+    <h2>Key Features</h2>
+    <ul class="project-features">
+        <li>Open-concept design with ample natural and ambient lighting.</li>
+        <li>Luxury vinyl plank flooring for durability and style.</li>
+        <li>Custom-built shelving and cabinetry for optimized storage.</li>
+        <li>Dedicated areas for entertainment, relaxation, and a home office.</li>
+        <li>High-efficiency HVAC system for consistent climate control.</li>
+    </ul>
+    
+    <p class="project-description">
+        The remodel introduced versatile spaces that blend aesthetics with functionality, making it the perfect spot for gatherings, leisure, or productivity.
+        Thoughtful design elements such as recessed lighting and neutral tones create a warm and inviting atmosphere.
+    </p>
+
+    <h3>Visual Highlights</h3>
+    <p>Below are images of the transformation, showcasing the remarkable evolution of this space.</p>
+',
+        'pageUrl' => 'project-details.php?project=2',
+        'type' => 'basement',
+        'beforeAfter' => [
+            'before' => 'images/portfolio/Basement_1_before.jpg',
+            'after' => 'images/portfolio/Basement_1_after.jpg',
+        ],
+        'gallery' => [
+            'https://images.pexels.com/photos/1401346/pexels-photo-1401346.jpeg',
+            'https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg',
+        ],
+    ],
+    [
+        'id' => 3,
+        'image' => 'https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Kitchen Remodel no. 2',
+        'short_description' => 'This contemporary transformation blends modern aesthetics with luxurious fixtures, creating a serene oasis right at home.',
+        'description' => '<h1 class="project-title">Kitchen Remodel: A Cozy and Functional Culinary Haven</h1>
+    
+    <p class="project-description">
+        This kitchen remodel blends rustic charm with modern functionality, creating a space that’s as inviting as it is practical. 
+        With warm lighting, natural wood finishes, and state-of-the-art appliances, the kitchen has been transformed into the heart of the home.
+    </p>
+    
+    <h2>Key Features</h2>
+    <ul class="project-features">
+        <li>Custom cabinetry with soft-close hinges for sleek storage solutions.</li>
+        <li>Quartz countertops offering durability and timeless elegance.</li>
+        <li>Energy-efficient stainless steel appliances for enhanced performance.</li>
+        <li>Undermount farmhouse sink paired with a brushed nickel faucet.</li>
+        <li>Subway tile backsplash for a clean, classic aesthetic.</li>
+    </ul>
+    
+    <p class="project-description">
+        Thoughtfully designed with family gatherings in mind, this kitchen maximizes space with an open layout, a large island for meal prep, 
+        and a cozy dining nook. The balance between rustic elements and modern upgrades creates a timeless appeal.
+    </p>
+
+    <h3>Visual Highlights</h3>
+    <p>See the transformation below, highlighting the charm and functionality of the redesigned space.</p>
+',
+        'pageUrl' => 'project-details.php?project=3',
+        'type' => 'kitchen',
+        'beforeAfter' => [
+            'before' => 'images/portfolio/Kitchen_After1.jpg',
+            'after' => 'images/portfolio/Kitchen_Before1.jpg',
+        ],
+        'gallery' => [
+            'https://images.pexels.com/photos/326678/pexels-photo-326678.jpeg',
+            'https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg',
+        ],
+    ],
+    [
+        'id' => 4,
+        'image' => 'https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Bathroom Remodel no. 1',
+        'short_description' => 'Experience the ultimate blend of luxury and functionality with this bathroom remodel. This transformation has redefined comfort with its clean, contemporary design, premium fixtures, and a serene atmosphere.',
+        'description' => '<h1 class="project-title">Bathroom Remodel: A Modern Oasis</h1>
+    
+    <p class="project-description">
+        Experience the ultimate blend of luxury and functionality with this bathroom remodel. This transformation has redefined comfort with its clean, contemporary design, premium fixtures, and a serene atmosphere. The space now exudes elegance while offering unmatched utility.
+    </p>
+    
+    <h2>Key Features</h2>
+    <ul class="project-features">
+        <li>Innovative Kohler 8 Rainhead with Katalyst Air Induction Technology for a spa-like rain shower experience.</li>
+        <li>Kohler Purist multi-function showerhead offering customizable shower settings.</li>
+        <li>Sleek, frameless glass shower enclosure for a modern aesthetic.</li>
+        <li>Wall-mounted vanity with soft-close drawers and an integrated sink.</li>
+        <li>Large-format tiles in neutral tones for a clean and expansive look.</li>
+    </ul>
+    
+    <p class="project-description">
+        The combination of high-end fixtures, smart design choices, and a neutral color palette creates a calming retreat that is perfect for relaxation. With its thoughtful layout, this bathroom optimizes every inch of space while maintaining a luxurious feel.
+    </p>
+
+    <h3>Visual Highlights</h3>
+    <p>See how this bathroom went from outdated to outstanding with the images below.</p>
+',
+        'pageUrl' => 'project-details.php?project=4',
+        'type' => 'Bathroom',
+        'beforeAfter' => [
+            'before' => 'images/portfolio/bathroom_before2.jpg',
+            'after' => 'images/portfolio/bathroom_after2.jpg',
+        ],
+        'gallery' => [
+            'https://images.pexels.com/photos/593172/pexels-photo-593172.jpeg',
+            'https://images.pexels.com/photos/271755/pexels-photo-271755.jpeg',
+        ],
+    ],
+
+    [
+        'id' => 5,
+        'image' => 'https://images.pexels.com/photos/2062426/pexels-photo-2062426.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        'title' => 'Third Flr Remodel',
+        'short_description' => 'Experience the ultimate blend of luxury and functionality with this bathroom remodel. This transformation has redefined comfort with its clean, contemporary design, premium fixtures, and a serene atmosphere.',
+        'description' => ' <h1 class="project-title">Third Floor Remodel: A Stunning Transformation</h1>
+    
+    <p class="project-description">
+        The third floor has been completely reimagined to serve as a multifunctional living space, combining comfort, practicality, and aesthetic appeal. With an open-concept design, high-quality materials, and modern features, this remodel has transformed an underutilized area into the perfect retreat.
+    </p>
+    
+    <h2>Key Features</h2>
+    <ul class="project-features">
+        <li>Open-plan layout creating a spacious and airy environment.</li>
+        <li>Luxurious hardwood flooring for a warm and inviting atmosphere.</li>
+        <li>Custom-built storage solutions for maximum functionality.</li>
+        <li>Energy-efficient LED lighting integrated throughout the space.</li>
+        <li>Neutral color palette accented with vibrant décor for a modern touch.</li>
+    </ul>
+    
+    <p class="project-description">
+        Whether used as a private retreat, home office, or entertainment area, the remodeled third floor now seamlessly blends form and function. The thoughtful design ensures a harmonious balance of natural light, storage, and living space, tailored to suit a variety of needs.
+    </p>
+
+    <h3>Visual Highlights</h3>
+    <p>Take a look at the stunning transformation with the images below.</p>
+
+',
+        'pageUrl' => 'project-details.php?project=4',
+        'type' => 'other',
+        'beforeAfter' => [
+            'before' => 'images/portfolio/3_before.jpg',
+            'after' => 'images/portfolio/3_after.jpg',
+        ],
+        'gallery' => [
+            'https://images.pexels.com/photos/593172/pexels-photo-593172.jpeg',
+            'https://images.pexels.com/photos/271755/pexels-photo-271755.jpeg',
+        ],
+    ],
 ];
+
+
+$projectId = isset($_GET['project']) ? (int) $_GET['project'] : 0;
+$project = null;
+foreach ($projects as $proj) {
+    if ($proj['id'] === $projectId) {
+        $project = $proj;
+        break;
+    }
+}
+
+if (!$project) {
+    echo "Project not found!";
+    exit;
+}
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -174,158 +246,37 @@ $projects = [
             <div class="containerFull w-100">
                 <div class="banner-inner  ">
                     <h1 class="fontHeading text-white fontWeight900  ">
-                        Xyz Projects
+                        <?php echo $project['title']; ?>
 
                     </h1>
                     <p class="mt-3 text-white mb-4">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, repudiandae unde beatae accusamus
-                        laudantium fuga magni vel inventore perferendis ullam explicabo, nesciunt debitis. Itaque dicta
-                        repudiandae eos deleniti cum nisi.z
+                        <?php echo $project['short_description']; ?>
                     </p>
                 </div>
             </div>
         </div>
-        <!-- <section>
-            <div class="containerFull">
-                <div class="project-header">
-                    <h4 class="heading fontHeading text_secondary">Sleek Serenity Bathroom Remodel</h4>
-                    <p class=" small ">Indulge in the ultimate relaxation with our contemporary transformation.</p>
-                </div>
 
-                <div class="description mt-3">
-                    <p>
-                        This contemporary transformation blends modern aesthetics with luxurious fixtures, creating a
-                        serene oasis right at home. Featuring a range of high-end Kohler products, this bathroom offers
-                        both style and functionality, providing a spa-like experience every day.
-                    </p>
-                    <p>
-                        The remodel centers around the innovative Kohler 8" Rainhead with Katalyst Air Induction
-                        Technology, offering a refreshing rain-like shower experience. Complementing this is the Kohler
-                        Purist multi-function showerhead and the Kohler Shift Square handheld shower, all in sleek
-                        chrome finishes. These fixtures not only enhance the showering experience but also add a touch
-                        of modern elegance.
-                    </p>
-                    <p>
-                        The Uttermost Canillo mirror in silver brings a sophisticated touch, reflecting light and
-                        enhancing the sense of space. Kohler Composed accessories, including the double robe hook,
-                        pivoting toilet paper holder, towel arm, and 30" towel bar, all in chrome, ensure every detail
-                        is cohesive and stylish.
-                    </p>
-                    <p>
-                        The floor features Nemo Tile Brooklyn Fort Green White, providing a clean and modern foundation.
-                        The shower floor is adorned with Daltile Keystones Penny Rounds in Arctic White Matte, adding
-                        texture and visual interest. The shower walls are completed with Daltile Remedy 2x10 Hydro
-                        Glossy tiles, creating a sleek and reflective surface that enhances the overall aesthetic.
-                    </p>
-                </div>
-
-                <div class="special-features">
-                    <h4 class="heading fontHeading text_secondary mt-3">Special Features</h4>
-                    <ul class="mt-2 list_list">
-                        <li>Rain Head: Kohler 8" Rainhead with Katalyst Air Induction Technology (2.5 GPM) in chrome,
-                            offering a luxurious rain-like shower experience.</li>
-                        <li>Rain Head Arm and Flange: Kohler 6" ceiling mount single function rain head arm/flange in
-                            chrome for a sleek installation.</li>
-                        <li>Handheld Shower: Kohler Shift Square handheld shower in chrome, adding convenience and
-                            flexibility.</li>
-                        <li>Mirror: Uttermost Canillo mirror in silver, enhancing light and space.</li>
-                        <li>Accessories: Kohler Composed double robe hook, pivoting toilet paper holder, towel arm, and
-                            30" towel bar, all in chrome, ensuring a cohesive and elegant design.</li>
-                    </ul>
-                </div>
-
-                <div class="products-used">
-                    <h4 class="heading fontHeading text_secondary mt-3">Products Used</h4>
-                    <ul class="list_list mt-3">
-                        <li>Rain Head: Kohler 8" Rainhead with Katalyst Air Induction Technology (2.5 GPM) in chrome.
-                        </li>
-                        <li>Rain Head Arm and Flange: Kohler 6" ceiling mount single function rain head arm/flange in
-                            chrome.</li>
-                        <li>Shower Head: Kohler Purist 2.5 GPM multi-function showerhead in chrome.</li>
-                        <li>Handheld Shower: Kohler Shift Square handheld shower in chrome.</li>
-                        <li>Mirror: Uttermost Canillo mirror in silver.</li>
-                        <li>Robe Hook: Kohler Composed double robe hook in chrome.</li>
-                        <li>Paper Holder: Kohler Composed pivoting toilet paper holder in chrome.</li>
-                        <li>Towel Ring: Kohler Composed towel arm in chrome.</li>
-                        <li>Towel Bar: Kohler Composed 30" towel bar in chrome.</li>
-                        <li>Floor Tiles: Nemo Tile Brooklyn Fort Green White.</li>
-                        <li>Shower Floor Tile: Daltile Keystones Penny Rounds in Arctic White Matte.</li>
-                        <li>Shower Wall Tiles: Daltile Remedy 2x10 Hydro Glossy.</li>
-                    </ul>
-                </div>
-            </div>
-        </section> -->
-        <!-- <section style="background-color:#f4f4f4">
-            <div class="containerFull">
-                <h4 class="heading fontHeading text_secondary">Similar Projects</h4>
-                <p class=" small ">Indulge in the ultimate relaxation with our contemporary transformation.</p>
-
-
-                <div class="similar_projects_slider_main">
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper similar_projects_slider mt-4 pb-5">
-                                <div class="swiper-wrapper">
-                                    <?php foreach ($projects as $project): ?>
-                                        <div class="swiper-slide">
-                                            <div class="gallery_item">
-                                                <a <?php echo $project['useFancyBox'] ? 'data-fancybox="gallery"' : ''; ?>
-                                                    href="<?php echo $project['useFancyBox'] ? $project['image'] : $project['pageUrl']; ?>">
-                                                    <img src="<?php echo $project['image']; ?>" alt="<?php echo $project['title']; ?>"
-                                                        loading="lazy" />
-                                                </a>
-                                                <div class="gallery_card_content">
-                                                    <h4 class="text_secondary"><?php echo $project['title']; ?></h4>
-                                                    <p class="text_secondary"><?php echo $project['description']; ?></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    <?php endforeach; ?>
-
-
-                                </div>
-
-                                <div class="swiper-pagination"></div>
-                            </div>    
-                            <div class="swiper-button-prev"></div>
-                </div>
-            </div>
-        </section> -->
     </div>
-    <section class="">
+    <section class="project-details-section">
         <div class="containerFull">
             <div class="row">
                 <div class="col-lg-6">
-                    <div class="project-header">
-                        <h4 class="heading fontHeading text_secondary">Sleek Serenity Bathroom Remodel</h4>
-                        <p class=" small ">Indulge in the ultimate relaxation with our contemporary transformation.</p>
-                    </div>
 
-                    <div class="description mt-4">
-                        <p>
-                            This contemporary transformation blends modern aesthetics with luxurious fixtures, creating
-                            a
-                            serene oasis right at home. Featuring a range of high-end Kohler products, this bathroom
-                            offers
-                            both style and functionality, providing a spa-like experience every day.
-                        </p>
-                        <p class="mt-3">
-                            The remodel centers around the innovative Kohler 8" Rainhead with Katalyst Air Induction
-                            Technology, offering a refreshing rain-like shower experience. Complementing this is the
-                            Kohler
-                            Purist multi-function showerhead and the Kohler Shift Square handheld shower, all in sleek
-                            chrome finishes. These fixtures not only enhance the showering experience but also add a
-                            touch
-                            of modern elegance.
-                        </p>
+
+                    <div class="description portfolio_discription mt-4">
+                        <?php echo $project['description']; ?>
+
                     </div>
                 </div>
                 <div class="col-lg-6 img_com mt-5 mt-lg-0">
 
-                    <div class="wrapper">
+                    <div class="wrapper ">
 
                         <div class="image">
-                            <div class="image-1"></div>
-                            <div class="image-2"></div>
+                            <div class="image-1"
+                                style="background-image:url(<?php echo $project['beforeAfter']['before']; ?>)"></div>
+                            <div class="image-2"
+                                style="background-image:url(<?php echo $project['beforeAfter']['after']; ?>)"></div>
                         </div>
 
                         <div class="slider">

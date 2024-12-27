@@ -119,7 +119,7 @@ $addtional = [
         <div class="contact-banner">
             <div class="containerFull w-100">
                 <div class="banner-inner  ">
-                    <h1 class="fontHeading  ">
+                    <h1 class="fontHeading heading fontWeight700 text-white ">
                         KITCHENS
 
                     </h1>
@@ -132,7 +132,7 @@ $addtional = [
         </div>
         <section class="" style="background:#f6f6f6">
             <div class="containerFull">
-                <h4 class="text_secondary fontWeight800  fontHeading heading">
+                <h4 class="text_secondary fontWeight600  fontHeading heading">
 
                     Complete Kitchen Transformations
                 </h4>
@@ -157,25 +157,25 @@ $addtional = [
 
                 <div class="row mt-5">
                     <div class="col-lg-6">
-                        <h4 class="heading fontHeading fontWeight800">Our Suggested Kitchen Solutions</h4>
+                        <h4 class="heading fontHeading fontWeight600 text_secondary">Our Suggested Kitchen Solutions</h4>
 
-                        <h4 class="sub_heading fontHeading fontWeight800 mt-4">1. Countertops</h4>
+                        <h4 class="sub_heading fontHeading fontWeight600 text_secondary mt-4">1. Countertops</h4>
                         <p class="mt-2">Add counterspace, bar tops, and kitchen islands using strong materials designed
                             with
                             excellent durability. Quartz and granite are very popular options.</p>
 
-                        <h4 class="sub_heading fontHeading fontWeight800 mt-3">2. Backsplashes</h4>
+                        <h4 class="sub_heading fontHeading fontWeight600 text_secondary mt-3">2. Backsplashes</h4>
                         <p class="mt-2">Bring your kitchen together with an eye-catching backsplash. It serves a
                             practical purpose by
                             protecting walls from splatters, but also provides a stylish focal point for your kitchen.
                         </p>
 
-                        <h4 class="sub_heading fontHeading fontWeight800 mt-3">3. Custom Cabinetry</h4>
+                        <h4 class="sub_heading fontHeading fontWeight600 text_secondary mt-3">3. Custom Cabinetry</h4>
                         <p class="mt-2">Gorgeous, sturdy, and accessible storage space is essential. We offer cabinets,
                             pantries,
                             shelving, and more, all designed to maximize both function and aesthetic appeal.</p>
 
-                        <h4 class="sub_heading fontHeading fontWeight800 mt-3">4. Finishing Touches</h4>
+                        <h4 class="sub_heading fontHeading fontWeight600 text_secondary mt-3">4. Finishing Touches</h4>
                         <p class="mt-2">Customize your newly remodeled kitchen to every fine detail, including windows,
                             radiant heat
                             flooring, appliances, lighting, door hardware, sinks, and faucets. The possibilities are

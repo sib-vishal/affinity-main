@@ -49,7 +49,7 @@
                                 <img width="70" class=" mb-20px icon " src="images/location.svg" alt="">
                             </div>
                             <div class=" ">
-                                <span class="d-block mt-2  mb-5px heading fontWeight700">Office
+                                <span class="d-block mt-2  mb-5px heading fontWeight700 fontHeading">Office
                                     location</span>
                                 <p class="w-80 xl-w-100 md-w-75 mx-auto snall">407 South 10TH ST Suite 103
 
@@ -65,7 +65,7 @@
                                 <img width="70" class=" mb-20px icon " src="images/message.svg" alt="">
                             </div>
                             <div class=" last-paragraph-no-margin">
-                                <span class="d-block mt-2  mb-5px heading fontWeight700">Send a
+                                <span class="d-block mt-2  mb-5px heading fontWeight700 fontHeading">Send a
                                     message</span>
                                 <div class="w-100 d-block">
                                     <a href="mailto:info@affinity-builders.com"
@@ -83,7 +83,7 @@
                                 <img width="70" class=" mb-20px icon " src="images/phone.svg" alt="">
                             </div>
                             <div class="">
-                                <span class="d-block mt-2  mb-5px heading fontWeight700">Let's talk with
+                                <span class="d-block mt-2  mb-5px heading fontWeight700 fontHeading">Let's talk with
                                     us</span>
                                 <div class="w-100 d-block">
                                     <span class="d-block">Phone: <a href="tel:267-645-9005"
@@ -100,7 +100,7 @@
                                 <img width="70" class=" mb-20px icon " src="images/team.svg" alt="">
                             </div>
                             <div class="">
-                                <span class="d-block mt-2  mb-5px heading fontWeight700">Join our
+                                <span class="d-block mt-2  mb-5px heading fontWeight700 fontHeading">Join our
                                     team</span>
                                 <p class="w-80 lg-w-100 md-w-75 sm-w-85 xs-w-75 mx-auto ">Connect with Us
                                 </p>
@@ -118,7 +118,7 @@
                     <div class="col-lg-6">
                         <div class="leftContact">
                             <h4 data-aos="zoom-in-up"
-                                class="large_heading fontWeight800 fontHeading aos-init aos-animate ">Contact
+                                class="heading fontWeight600 fontHeading aos-init aos-animate ">Contact
                                 us</h4>
                             <p class="title mt-3 aos-init aos-animate" data-aos="zoom-in-up">Connect with Us for
                                 Support, Inquiries, and

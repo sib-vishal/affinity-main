@@ -229,7 +229,7 @@ $projects = [
         <div class="contact-banner">
             <div class="containerFull w-100">
                 <div class="banner-inner  ">
-                    <h1 class="fontHeading fontWeight900 ">
+                    <h1 class="fontHeading fontWeight700 heading ">
                         Recently Worked Projects
 
                     </h1>
@@ -243,12 +243,12 @@ $projects = [
             <div class="containerFull">
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-6">
-                        <h4 class="fontHeading heading mt-3 mb-3 fontWeight900 text_secondary">
+                        <h4 class="fontHeading heading mt-3 mb-3 fontWeight600 text_secondary">
                             Explore Our Projects
                         </h4>
                     </div>
                     <div class="tabs_btn" style="width: fit-content;">
-                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                        <ul class="nav nav-tabs fontHeading" id="myTab" role="tablist">
                             <li class="nav-item" role="presentation">
                                 <a class="nav-link active" id="showAll-tab" data-bs-toggle="tab" href="#showAll"
                                     role="tab" aria-controls="showAll" aria-selected="true">Show All</a>
@@ -279,7 +279,7 @@ $projects = [
                                                 alt="<?php echo $project['title']; ?>" loading="lazy" />
                                         </a>
                                         <div class="gallery_card_content">
-                                            <h4 class="text_secondary"><?php echo $project['title']; ?></h4>
+                                            <h4 class="text_secondary fontHeading fontWeight500"><?php echo $project['title']; ?></h4>
                                             <p class="text_secondary"><?php echo $project['short_description']; ?></p>
                                         </div>
                                     </div>
@@ -300,7 +300,7 @@ $projects = [
                                                     alt="<?php echo $project['title']; ?>" loading="lazy" />
                                             </a>
                                             <div class="gallery_card_content">
-                                                <h4 class="text_secondary"><?php echo $project['title']; ?></h4>
+                                                <h4 class="text_secondary fontHeading fontWeight500"><?php echo $project['title']; ?></h4>
                                                 <p class="text_secondary"><?php echo $project['short_description']; ?></p>
                                             </div>
                                         </div>
@@ -322,7 +322,7 @@ $projects = [
                                                     alt="<?php echo $project['title']; ?>" loading="lazy" />
                                             </a>
                                             <div class="gallery_card_content">
-                                                <h4 class="text_secondary"><?php echo $project['title']; ?></h4>
+                                                <h4 class="text_secondary fontHeading fontWeight500"><?php echo $project['title']; ?></h4>
                                                 <p class="text_secondary"><?php echo $project['short_description']; ?></p>
                                             </div>
                                         </div>

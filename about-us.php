@@ -51,7 +51,7 @@ $services = [
         <div class="page-banner about">
             <div class="containerFull w-100">
                 <div class="banner-inner  ">
-                    <h1 class="fontHeading ">
+                    <h1 class="fontHeading fontWeight600 heading">
                         About Us - Affinity Builders
 
                     </h1>
@@ -83,7 +83,7 @@ $services = [
                                 revitalize not only the Philadelphia area, but all of its surrounding counties.
                             </p>
 
-                            <ul class="list_items_main mt-4">
+                            <ul class="list_items_main mt-4 fontHeading">
                                 <li class="list_items">
                                     <span class="list_icon">
                                         <svg xmlns="http://www.w3.org/2000/svg"
@@ -508,7 +508,7 @@ $services = [
                                 <small class="text_primary_light title fontWeight700">
                                     *PA Licensed and Insured
                                 </small>
-                                <h4 class=" mt-2 heading text_third">
+                                <h4 class=" mt-2 sub_heading text_third fontHeading">
                                     15 years + of experience
                                 </h4>
 
@@ -530,9 +530,9 @@ $services = [
 
                     </div>
                     <div class="col-lg-6 mt-4 mt-lg-0 ps-lg-5">
-                        <h2 class="heading fontHeading fontWeight700 text-white">
+                        <h4 class="heading fontHeading fontWeight600 text-white">
                             Excellence and Professionalism
-                        </h2>
+                        </h4>
                         <p class="mt-4 text-white">
                             We understand that a home is more than just a structure, it’s a reflection of its owner, a
                             place
@@ -565,9 +565,9 @@ $services = [
 
                     </div>
                     <div class="col-lg-6 mt-4 mt-lg-0 pe-lg-5">
-                        <h2 class="heading fontHeading fontWeight700 text-white">
+                        <h4 class="heading fontHeading fontWeight600 text-white">
                             Personalized Approach
-                        </h2>
+                        </h4>
                         <p class="mt-4 text-white">
                             We’ve learned that achieving true customer satisfaction while building isn’t just about
                             creating a beautiful new space in your home. While aesthetic appeal is important,

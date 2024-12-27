@@ -119,7 +119,7 @@ $addtional = [
         <div class="contact-banner">
             <div class="containerFull w-100">
                 <div class="banner-inner  ">
-                    <h1 class="fontHeading  ">
+                    <h1 class="fontHeading heading fontWeight600  ">
                         Our Services
 
                     </h1>
@@ -132,7 +132,7 @@ $addtional = [
         </div>
         <section class="" style="background:#f6f6f6">
             <div class="containerFull ">
-                <h4 class="fontHeading heading fontWeight700 text_secondary">
+                <h4 class="fontHeading heading fontWeight600 text_secondary">
                     Our Remodeling Services
                 </h4>
                 <p class="mt-4">
@@ -157,7 +157,7 @@ $addtional = [
                                         </a>
                                     </div>
                                     <div class="text-center py-3 w-100 position-absolute bottom-0 z-2 heading_box">
-                                        <h3 class="title fontHeading fontWeight600 text-center">
+                                        <h3 class="title fontHeading fontWeight500 text-center">
                                             <a class="text-white"
                                                 href="<?php echo $service['link']; ?>"><?php echo $service['title']; ?></a>
                                         </h3>
@@ -170,14 +170,14 @@ $addtional = [
                 <div class="row mt-5">
 
                     <div class="col-lg-6">
-                        <h4 class=" fontHeading  heading text_secondary  fontWeight800">
+                        <h4 class=" fontHeading  sub_heading text_secondary  fontWeight800">
                             Addtional Services
                         </h4>
-                        <ul class="additional-item mt-4">
+                        <ul class="additional-item mt-5">
                             <li>
                                 <a href="services-details.php" class="remodel-link">
 
-                                    <h4 class="text_secondary">BASEMENT REMODEL</h4>
+                                    <h4 class="text_secondary fontHeading">BASEMENT REMODEL</h4>
                                     <p class="mt-2">A basement remodel is one of the most cost-effective
                                         ways
                                         to
@@ -190,7 +190,7 @@ $addtional = [
                             <li>
                                 <a href="services-details.php" class="remodel-link">
 
-                                    <h4 class="text_secondary">REMIDIATION</h4>
+                                    <h4 class="text_secondary fontHeading">REMIDIATION</h4>
                                     <p class="mt-2">Stopping and eliminating environmental hazards
                                         through
                                         the

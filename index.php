@@ -199,9 +199,9 @@ $projects = [
                     <div class="col-xl-5 col-lg-6 col-12">
                         <div class="mb-4 position-relative">
                             <!--<small class="text-uppercase ls-md fw-semibold text_primary">About Us</small>-->
-                            <h2 class="fontHeading  mt-4 mb-3 fontWeight900 text_secondary">
+                            <h2 class="heading fontHeading  mt-4 mb-3 fontWeight700 text_secondary">
 
-                                WE ENHANCE THE QUALITY OF LIFE IN YOUR HOME</h2>
+                            We Enhance the Quality of Life in your Home :</h2>
                             <p class="mb-3">Affinity Builders is dedicated to providing extra care to each project from
                                 pre-construction to project closeout. Owned and Operated in Philadelphia, we strive to
                                 revitalize not only the Philadelphia area, but all of its surrounding counties. </p>
@@ -256,7 +256,7 @@ $projects = [
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="text-white">Expert Team</h4>
+                                <h4 class="text-white fontHeading">Expert Team</h4>
                                 <p class="mb-0 text-white mt-3"> Dedicated to providing the best in customer service
                                     from beginning to end.</p>
                             </div>
@@ -272,7 +272,7 @@ $projects = [
                                 </svg>
                             </div>
                             <div>
-                                <h4 class="text-white">PA licensed and insured</h4>
+                                <h4 class="text-white fontHeading">PA licensed and insured</h4>
                                 <p class="mb-0 text-white mt-3"> You can trust us to deliver quality work with full
                                     protection.</p>
                             </div>
@@ -309,7 +309,7 @@ $projects = [
 
                 </div>
                 <div class="item p-3 p-md-5 ">
-                    <h4 class="heading fontHeading fontWeight800 text_secondary">
+                    <h4 class="heading fontHeading fontWeight600 text_secondary">
                         Our Services
                     </h4>
                     <p class="text-justify mt-3">
@@ -374,158 +374,7 @@ $projects = [
 
             </div>
         </section>
-        <!-- our services -->
-        <!-- <section>
-            <div class="containerFull">
-                <small class="text-uppercase title ls-md fw-semibold text_primary">
-
-                    OUR SERVICES
-                </small>
-                <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text_secondary">
-                    WHAT SERVICE DO YOU NEED?
-                </h4>
-                <div class="row mt-4">
-                    <div class="col-lg-3">
-                        <div>
-                            <div class="services_item ">
-                                <div class="imgStyles">
-                                    <picture>
-                                        <source
-                                            srcset="https://images.pexels.com/photos/1599791/pexels-photo-1599791.jpeg?auto=compress&cs=tinysrgb&w=700&h=500&dpr=1"
-                                            type="image/webp">
-                                        <img src="https://images.pexels.com/photos/1599791/pexels-photo-1599791.jpeg?auto=compress&cs=tinysrgb&w=700&h=500&dpr=1"
-                                            alt="">
-                                    </picture>
-                                </div>
-                                <div class="text-center py-3 w-100 position-absolute bottom-0 z-2 heading_box ">
-                                    <h3 class="title fontHeading fontWeight600 text-center">KITCHENS</h3>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="col-lg-3">
-                        <div>
-                            <div class="services_item ">
-                                <div class="imgStyles">
-                                    <picture>
-                                        <source
-                                            srcset="https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=700&h=500&dpr=1"
-                                            type="image/webp">
-                                        <img src="https://images.pexels.com/photos/105934/pexels-photo-105934.jpeg?auto=compress&cs=tinysrgb&w=700&h=500&dpr=1"
-                                            alt="">
-                                    </picture>
-                                </div>
-                                <div class="text-center py-3 w-100 position-absolute bottom-0 z-2 heading_box ">
-                                    <h3 class="title fontHeading fontWeight600 text-center">BATHROOM</h3>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="col-lg-3">
-                        <div>
-                            <div class="services_item ">
-                                <div class="imgStyles">
-                                    <picture>
-                                        <source
-                                            srcset="https://images.pexels.com/photos/28836085/pexels-photo-28836085/free-photo-of-bright-empty-room-with-wooden-flooring-and-closet.jpeg?auto=compress&cs=tinysrgb&w=700&h=500&dpr=1"
-                                            type="image/webp">
-                                        <img src="https://images.pexels.com/photos/28836085/pexels-photo-28836085/free-photo-of-bright-empty-room-with-wooden-flooring-and-closet.jpeg?auto=compress&cs=tinysrgb&w=700&h=500&dpr=1"
-                                            alt="">
-                                    </picture>
-                                </div>
-                                <div class="text-center py-3 w-100 position-absolute bottom-0 z-2 heading_box ">
-                                    <h3 class="title fontHeading fontWeight600 text-center">Exterior and Interior
-                                        Remodels</h3>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <div class="col-lg-3">
-                        <div>
-                            <div class="services_item ">
-                                <div class="imgStyles">
-                                    <picture>
-                                        <source
-                                            srcset="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=700&h=500&dpr=1"
-                                            type="image/webp">
-                                        <img src="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=700&h=500&dpr=1"
-                                            alt="">
-                                    </picture>
-                                </div>
-                                <div class="text-center py-3 w-100 position-absolute bottom-0 z-2 heading_box ">
-                                    <h3 class="title fontHeading fontWeight600 text-center">BASEMENTS</h3>
-                                </div>
-                            </div>
-
-                        </div>
-
-                    </div>
-
-                </div>
-        </section> -->
-        <!-- add ser -->
-        <!-- <section class="bg-gray-light">
-            <div class="containerFull">
-                <small class="text-uppercase title ls-md fw-semibold text_primary">
-
-                    Additional Services
-                </small>
-                <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text_secondary">
-                    Enhance Your Home with Our Comprehensive Solutions
-                </h4>
-                <div class="row mt-4">
-                    <div class="col-lg-3">
-                        <div class="add_ser_item ">
-                            <div class="img_box">
-                                <img src="images/home/add-services.jpeg" alt="">
-                            </div>
-                            <h4 class="text-center text_secondary  mt-2 fontWeight600">
-                                Interior Design
-                            </h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="add_ser_item ">
-                            <div class="img_box">
-                                <img src="images/home/add-services.jpeg" alt="">
-                            </div>
-                            <h4 class="text-center text_secondary  mt-2 fontWeight600">
-                                Interior Design
-                            </h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="add_ser_item ">
-                            <div class="img_box">
-                                <img src="images/home/add-services.jpeg" alt="">
-                            </div>
-                            <h4 class="text-center text_secondary  mt-2 fontWeight600">
-                                Interior Design
-                            </h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="add_ser_item ">
-                            <div class="img_box">
-                                <img src="images/home/add-services.jpeg" alt="">
-                            </div>
-                            <h4 class="text-center text_secondary  mt-2 fontWeight600">
-                                Interior Design
-                            </h4>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </section> -->
-        <!-- why -->
+       <!-- why -->
 
         <section class="bg-gray-light">
             <div class="containerFull">
@@ -539,7 +388,7 @@ $projects = [
 
                             WHY CHOOSE US
                         </small>
-                        <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text_secondary">
+                        <h4 class="fontHeading  heading mt-3 mb-3 fontWeight600 text_secondary">
 
                             Best Interior services & AffordablePrice
                         </h4>
@@ -562,12 +411,12 @@ $projects = [
                         <a href="#"
                             class="d-inline-block rounded-0 mt-5 icon-link icon-link-hover simple_btn fontWeight600">
                             Contact With Us
-                            <!-- <i class="fa-solid fa-arrow-right-long ms-2"></i> -->
+                          
                         </a>
                     </div>
                     <div class="col-lg-6 mt-5 mt-lg-0">
                         <div class="choose_card">
-                            <div class="pe-5 large_heading fontHeading fontWeight900">
+                            <div class="pe-5 heading fontHeading fontWeight900">
                                 #1
 
                             </div>
@@ -576,20 +425,17 @@ $projects = [
                             </div>
                             <div class="ps-4">
 
-                                <h4 class="  text_primary">
+                                <h4 class=" fontHeading  text_primary">
 
                                     Transparent Estimates
                                 </h4>
-                                <!--<p class="mt-2">-->
-                                <!--    100% Transparency-->
-                                <!--    in Our Estimates-->
-                                </p>
+                              
                             </div>
 
 
                         </div>
                         <div class="choose_card">
-                            <div class="pe-5 large_heading fontHeading fontWeight900">
+                            <div class="pe-5 heading fontHeading fontWeight900">
                                 #2
 
                             </div>
@@ -598,21 +444,18 @@ $projects = [
                             </div>
                             <div class="ps-4">
 
-                                <h4 class="  text_primary">
+                                <h4 class=" fontHeading  text_primary">
                                     Professional Oversight
 
                                 </h4>
-                                <!--<p class="mt-2">-->
-                                <!--    100% Transparency-->
-                                <!--    in Our Estimates-->
-                                <!--</p>-->
+                              
 
                             </div>
 
 
                         </div>
                         <div class="choose_card">
-                            <div class="pe-5 large_heading fontHeading fontWeight900">
+                            <div class="pe-5 heading fontHeading fontWeight900">
                                 #3
 
                             </div>
@@ -621,20 +464,17 @@ $projects = [
                             </div>
                             <div class="ps-4">
 
-                                <h4 class="  text_primary">
+                                <h4 class=" fontHeading  text_primary">
 
                                     Satisfaction Guarantee
                                 </h4>
-                                <!--<p class="mt-2">-->
-                                <!--    100% Transparency-->
-                                <!--    in Our Estimates-->
-                                <!--</p>-->
+                               
                             </div>
 
 
                         </div>
                         <div class="choose_card">
-                            <div class="pe-5 large_heading fontHeading fontWeight900">
+                            <div class="pe-5 heading fontHeading fontWeight900">
                                 #4
 
                             </div>
@@ -643,13 +483,10 @@ $projects = [
                             </div>
                             <div class="ps-4">
 
-                                <h4 class="  text_primary">
+                                <h4 class=" fontHeading  text_primary">
                                     Timely Completion
                                 </h4>
-                                <!--<p class="mt-2">-->
-                                <!--    100% Transparency-->
-                                <!--    in Our Estimates-->
-                                <!--</p>-->
+                               
                             </div>
                         </div>
                         <div>
@@ -660,39 +497,11 @@ $projects = [
 
             </div>
         </section>
-        <!--  -->
-        <!-- <section class="bg_secondary cta_home2">
-            <div class="containerFull">
-                <div class="row justify-content-between align-items-center">
-
-                    <div class="col-lg-6">
-                        <small class="text-uppercase title ls-md fw-semibold text-white-50"> Connect with us</small>
-                        <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text-white">
-                            Let's Get Started With Us,
-                            Further Info & Support Team
-                        </h4>
-
-
-
-                    </div>
-                    <div class="col-lg-3 position-relative">
-                  
-
-                        <a class="btn fontWeight600 header-btn mt-4 " href=""><i class="fa-solid fa-phone me-1"></i>
-                            +91-1234567890</a>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </section> -->
-        <!-- our process -->
+      
         <section class="">
             <div class="containerFull">
-
                 <small class="text-uppercase title ls-md fw-semibold text_primary"> How we works</small>
-                <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text-Primary">
+                <h4 class="fontHeading  heading mt-3 mb-3 fontWeight600 text_secondary">
                     Our Process To Decorate Your Personel Space
                 </h4>
                 <div class="row mt-5 item_process_main">
@@ -700,11 +509,11 @@ $projects = [
                     <div class="col-lg-6 mb-4 ">
                         <div class="item_process ">
                             <div class="process_img">
-                                <img src="images/home/add-services.jpeg" alt="">
+                                <img src="images/meeting-young-creative-architects.jpg" alt="">
 
                             </div>
                             <div class="process_content px-3 ">
-                                <h4 class="text_secondary fontWeight700">
+                                <h4 class="text_secondary fontHeading fontWeight700">
                                     01. Initial Proposal
                                 </h4>
                                 <p class="mt-2">
@@ -722,11 +531,11 @@ $projects = [
                     <div class="col-lg-6 mb-4">
                         <div class="item_process  ">
                             <div class="process_img">
-                                <img src="images/home/add-services.jpeg" alt="">
+                                <img src="images/close-up-woman-drawing-project_23-2148903474.jpg" alt="">
 
                             </div>
                             <div class="process_content px-3 ">
-                                <h4 class="text_secondary fontWeight700">
+                                <h4 class="text_secondary fontHeading fontWeight700">
                                     02. Planning & Approval
                                 </h4>
                                 <p class="mt-2">
@@ -744,11 +553,11 @@ $projects = [
                     <div class="col-lg-6 mb-4">
                         <div class="item_process   ">
                             <div class="process_img">
-                                <img src="images/home/add-services.jpeg" alt="">
+                                <img src="images/pay-goods-by-credit-card-through-smartphone-coffee-shop_1150-18770.jpg" alt="">
 
                             </div>
                             <div class="process_content px-3 ">
-                                <h4 class="text_secondary fontWeight700">
+                                <h4 class="text_secondary fontHeading fontWeight700">
                                     03. Payment
                                 </h4>
                                 <p class="mt-2">
@@ -765,11 +574,11 @@ $projects = [
                     <div class="col-lg-6 mb-4">
                         <div class="item_process   ">
                             <div class="process_img">
-                                <img src="images/home/add-services.jpeg" alt="">
+                                <img src="images/close-up-woman-s-hand-giving-house-key-man-wooden-table_23-2148204009.png" alt="">
 
                             </div>
                             <div class="process_content px-3 ">
-                                <h4 class="text_secondary fontWeight700">
+                                <h4 class="text_secondary fontHeading fontWeight700">
                                     04. Implementation & Delivery
                                 </h4>
                                 <p class="mt-2">
@@ -791,243 +600,7 @@ $projects = [
             </div>
         </section>
 
-        <!-- <section class="bg_secondary">
-            <div class="containerFull">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-lg-6">
-                        <small class="text-uppercase title ls-md fw-semibold text_primary fontWeight500">Our
-                            Portfolio</small>
-                        <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text-white">
-                            Recently
-                            Worked Projects
-                        </h4>
-                    </div>
-                    <div class="tabs_btn" style="width:fit-content">
-                        <ul class="nav nav-tabs" id="myTab" role="tablist">
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link active" id="showAll-tab" data-bs-toggle="tab" href="#showAll"
-                                    role="tab" aria-controls="showAll" aria-selected="true">Show All</a>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="bathroom-tab" data-bs-toggle="tab" href="#bathroom" role="tab"
-                                    aria-controls="bathroom" aria-selected="false">Bathrooms</a>
-                            </li>
-                            <li class="nav-item" role="presentation">
-                                <a class="nav-link" id="kitchen-tab" data-bs-toggle="tab" href="#kitchen" role="tab"
-                                    aria-controls="kitchen" aria-selected="false">Kitchens</a>
-                            </li>
-                        </ul>
-                    </div>
-
-                </div>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="showAll" role="tabpanel" aria-labelledby="showAll-tab">
-                        <div class="project_gallery mt-5">
-                            <div class="gallery row row-cols-md-2 row-cols-lg-3">
-                                <?php foreach ($projects as $project): ?>
-                                    <div class="gallery_item">
-                                        <a <?php echo $project['useFancyBox'] ? 'data-fancybox="gallery"' : ''; ?>
-                                            href="<?php echo $project['useFancyBox'] ? $project['image'] : $project['pageUrl']; ?>">
-                                            <img src="<?php echo $project['image']; ?>"
-                                                alt="<?php echo $project['title']; ?>" loading="lazy" />
-                                        </a>
-                                        <div class="gallery_card_content">
-                                            <h4><?php echo $project['title']; ?></h4>
-                                            <p class="text-white"><?php echo $project['description']; ?></p>
-                                        </div>
-                                    </div>
-                                <?php endforeach; ?>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="bathroom" role="tabpanel" aria-labelledby="bathroom-tab">
-                        <div class="project_gallery mt-5">
-                            <div class="gallery row row-cols-md-2 row-cols-lg-3">
-                                <?php foreach ($projects as $project): ?>
-                                    <?php if ($project['type'] === 'bathroom'): ?>
-                                        <div class="gallery_item">
-                                            <a <?php echo $project['useFancyBox'] ? 'data-fancybox="gallery"' : ''; ?>
-                                                href="<?php echo $project['useFancyBox'] ? $project['image'] : $project['pageUrl']; ?>">
-                                                <img src="<?php echo $project['image']; ?>"
-                                                    alt="<?php echo $project['title']; ?>" loading="lazy" />
-                                            </a>
-                                            <div class="gallery_card_content">
-                                                <h4><?php echo $project['title']; ?></h4>
-                                                <p class="text-white"><?php echo $project['description']; ?></p>
-                                            </div>
-                                        </div>
-                                    <?php endif; ?>
-                                <?php endforeach; ?>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="kitchen" role="tabpanel" aria-labelledby="kitchen-tab">
-                        <div class="project_gallery mt-5">
-                            <div class="gallery row row-cols-md-2 row-cols-lg-3">
-                                <?php foreach ($projects as $project): ?>
-                                    <?php if ($project['type'] === 'kitchen'): ?>
-                                        <div class="gallery_item">
-                                            <a <?php echo $project['useFancyBox'] ? 'data-fancybox="gallery"' : ''; ?>
-                                                href="<?php echo $project['useFancyBox'] ? $project['image'] : $project['pageUrl']; ?>">
-                                                <img src="<?php echo $project['image']; ?>"
-                                                    alt="<?php echo $project['title']; ?>" loading="lazy" />
-                                            </a>
-                                            <div class="gallery_card_content">
-                                                <h4><?php echo $project['title']; ?></h4>
-                                                <p class="text-white"><?php echo $project['description']; ?></p>
-                                            </div>
-                                        </div>
-                                    <?php endif; ?>
-                                <?php endforeach; ?>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-          >
-        </section> -->
-
-        <!-- meet our experts -->
-
-        <!-- <section class=" bg-gray-light" id="speaker">
-            <div class="containerFull">
-                <div>
-                    <small class="text-uppercase title ls-md fw-semibold text_primary">Meet Our Experts</small>
-                    <h4 class="fontHeading  heading mt-3 mb-3 fontWeight900 text-gray-800">
-                        Meet Our
-                        Expert Team
-                    </h4>
-                </div>
-                <div class=" mt-4">
-                    <div class="row row-cols-xl-5 row-cols-md-3 row-cols-1 g-4 flex-nowrap pb-4 pb-xl-0 me-5 me-lg-0">
-
-                        <div class="col team-member">
-                            <a href="#">
-                                <div class=" text-center shadow-sm border-0 card-lift">
-                                    <div class="card-body bg-white">
-                                        <div class="mb-4">
-                                            <img src="https://block.codescandy.com/assets/images/avatar/avatar-8.jpg"
-                                                alt="testimonial" class="rounded-circle avatar avatar-xxl" />
-                                        </div>
-                                        <div class="mb-2 ">
-                                            <h4 class="mb-0 h5 text_primary">Ankit Parmar</h4>
-                                            <span class="small text_secondary fontWeight500">Interior Designer</span>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col team-member">
-                            <a href="#">
-                                <div class=" text-center shadow-sm border-0 card-lift">
-                                    <div class="card-body bg-white">
-                                        <div class="mb-4">
-                                            <img src="https://block.codescandy.com/assets/images/avatar/avatar-8.jpg"
-                                                alt="testimonial" class="rounded-circle avatar avatar-xxl" />
-                                        </div>
-                                        <div class="mb-2 ">
-                                            <h4 class="mb-0 h5 text_primary">Ankit Parmar</h4>
-                                            <span class="small text_secondary fontWeight500">Interior Designer</span>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col team-member">
-                            <a href="#">
-                                <div class=" text-center shadow-sm border-0 card-lift">
-                                    <div class="card-body bg-white">
-                                        <div class="mb-4">
-                                            <img src="https://block.codescandy.com/assets/images/avatar/avatar-8.jpg"
-                                                alt="testimonial" class="rounded-circle avatar avatar-xxl" />
-                                        </div>
-                                        <div class="mb-2 ">
-                                            <h4 class="mb-0 h5 text_primary">Ankit Parmar</h4>
-                                            <span class="small text_secondary fontWeight500">Interior Designer</span>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col team-member">
-                            <a href="#">
-                                <div class=" text-center shadow-sm border-0 card-lift">
-                                    <div class="card-body bg-white">
-                                        <div class="mb-4">
-                                            <img src="https://block.codescandy.com/assets/images/avatar/avatar-8.jpg"
-                                                alt="testimonial" class="rounded-circle avatar avatar-xxl" />
-                                        </div>
-                                        <div class="mb-2 ">
-                                            <h4 class="mb-0 h5 text_primary">Ankit Parmar</h4>
-                                            <span class="small text_secondary fontWeight500">Interior Designer</span>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col team-member">
-                            <a href="#">
-                                <div class=" text-center shadow-sm border-0 card-lift">
-                                    <div class="card-body bg-white">
-                                        <div class="mb-4">
-                                            <img src="https://block.codescandy.com/assets/images/avatar/avatar-8.jpg"
-                                                alt="testimonial" class="rounded-circle avatar avatar-xxl" />
-                                        </div>
-                                        <div class="mb-2 ">
-                                            <h4 class="mb-0 h5 text_primary">Ankit Parmar</h4>
-                                            <span class="small text_secondary fontWeight500">Interior Designer</span>
-                                        </div>
-
-
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-
-
-                    </div>
-                </div>
-
-            </div>
-        </section> -->
-        <!-- <section class="bg-gray-light">
-            <div class="containerFull">
-                <div class="text-center">
-
-                    <h4 class="heading fontHeading fontWeight700">
-                        Transform Your Space: Affordable & Elegant Design Solutions
-
-                    </h4>
-                    <p class="mt-3">
-                        Kitchen & Bath Remodeling | Home Additions | Outdoor Living
-                    </p>
-                    <div class="d-flex mt-4 justify-content-center ">
-                        <a class="btn fontWeight600 header-btn" href="tel:267-645-9005"><i class="fa-solid fa-phone me-1"></i>
-                        267-645-9005</a>
-                        <a href="#"
-                            class=" ms-3 d-inline-block rounded-0  icon-link icon-link-hover simple_btn fontWeight600">
-                            <i class="fa-regular fa-envelope me-2"></i>
-                            Know More
-
-                        </a>
-
-
-                    </div>
-                </div>
-
-
-
-
-            </div>
-        </section> -->
+       
 
         <section class="bg-gray-light cta_home2">
             <div class="containerFull">
@@ -1038,7 +611,7 @@ $projects = [
                                 <small class="text-white-50 title">
                                     Have Any Question ?
                                 </small>
-                                <h4 class="heading fontHeading fontWeight900 text-white mt-4">
+                                <h4 class="heading fontHeading fontWeight600 text-white mt-4">
                                     Get in Touch with Our Experts
 
                                 </h4>
@@ -1055,10 +628,10 @@ $projects = [
 
                                 </p>
 
-                                <h4 class="text-white mt-5 h5">
+                                <h4 class="text-white mt-5 h5 fontHeading">
                                     Talk to Our Experts
                                 </h4>
-                                <a href="tel:267-645-9005" class="d-inline-block text-white h1 mt-2 ">
+                                <a href="tel:267-645-9005" class="d-inline-block fontHeading text-white h1 mt-2 ">
                                     267-645-9005
                                 </a>
 
@@ -1097,7 +670,7 @@ $projects = [
                                             style="height: 100px" id="floatingTextarea"></textarea>
                                         <label for="floatingTextarea">Message</label>
                                     </div>
-                                    <button class="btn header-btn w-100 py-3 mt-3  " type="submit">
+                                    <button class="btn header-btn fontHeading w-100 py-3 mt-3  " type="submit">
                                         Speak To A Design Specialist
                                     </button>
                                 </div>

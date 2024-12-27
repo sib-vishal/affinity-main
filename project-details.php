@@ -245,7 +245,7 @@ if (!$project) {
         <div class="project-details-banner">
             <div class="containerFull w-100">
                 <div class="banner-inner  ">
-                    <h1 class="fontHeading text-white fontWeight900  ">
+                    <h1 class="fontHeading text-white heading fontWeight600  ">
                         <?php echo $project['title']; ?>
 
                     </h1>
@@ -273,10 +273,17 @@ if (!$project) {
                     <div class="wrapper ">
 
                         <div class="image">
-                            <div class="image-1"
-                                style="background-image:url(<?php echo $project['beforeAfter']['before']; ?>)"></div>
-                            <div class="image-2"
-                                style="background-image:url(<?php echo $project['beforeAfter']['after']; ?>)"></div>
+                            <div class="image-1 d-flex align-items-start justify-content-end"
+                                style="background-image:url(<?php echo $project['beforeAfter']['before']; ?>)">
+
+                                <button>
+                                    Before
+                                </button>
+                            </div>
+                            <div class="image-2 "
+                                style="background-image:url(<?php echo $project['beforeAfter']['after']; ?>)">
+                                <button>After</button>
+                            </div>
                         </div>
 
                         <div class="slider">
